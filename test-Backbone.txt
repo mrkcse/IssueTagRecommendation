@@ -1,0 +1,669 @@
+summary::summary
+remove this.options from history::remove options history
+adding jscs::add
+backbone.view submit events firing click events instead::backbone view submit event
+collection#set uses un-parsed attribute id to determine uniqueness::collection attribute id unique
+nickpjason.github.io tab opening up everytime i open firefox::tab firefox
+don't allow initial attributes to affect previous()::attribute
+unmatched filesystem after mksquashfs::filesystem
+added `sparse` option to `set`::add sparse option
+backbone.model.save() problem on large json::backbone model json
+add collection cid::add collection cid
+collection.add accepts negative indexes for the `at` option::collection add index option
+wraperror function overrides emptiness of the error callback::function override callback
+order should trigger a sort iff order was changed::order trigger sort
+added splice to collections::splice collection
+doc page displayed incorrectly::doc page display
+collection spec is listening for "error", when it should be "invalid"::collection error invalid
+how to communicate model/collection/view/etc. type to browser dev tools?::model collection view browser
+update index.html::update
+css support in backbone views::css backbone view
+make backbone-min.js available for browser::backbone browser
+missed equality check::equility check
+documentfragment instead of creareelement::document
+using backbone without jquery::backbone jquery
+incoherence: different sort behaviour when setting models and collections::sort model collection
+draft changelog for backbone 1.2.0::changelog backbone
+support for opts.context in ajax callbacks::support ajax callback
+validation: validate only currently set attributes::validation attribute
+fix the unrecognizable characters bug for safari::fix bug safari
+fix bug for models with different idattributes returned from collection#model function::fix bug model collection idattribute
+add a "reset" method to backbone.model::add reset backbone model
+sorted collection: use binary search to insert items::sort collection search insert item
+poor "add" performance on sorted collections::add sort collection
+clarify docs around model#changed and model#haschanged::docs model
+object.observe() integration::object integration
+router.navigate function is called before hashchange event function gets call::router function event
+added binary search for sorted collections::add search sort collection
+unsetting attributes via set method should assume void value::attribute method
+binary search for sorted collections::search sort collection
+only trigger `sort` event when collection order changes.::trigger sort event collection
+collection#set cannot handle deduplicating models if the idattribute is nested::collection model idattribute
+added model.when::model
+workaround for a bug in the android browser.::bug android browser
+remove remaining jquery from view tests::remove jquery view
+in ie <= 8, redefined "document.domain" will block;::document
+documentation suggestion::document suggestion
+better documentation around the behaviour of `once` when multiple events are passed in::document multiple event
+prevent memory leaks with 'stoplistening' and 'off'::memory leak
+fix for ender + backbone::fix backbone
+double validation on save::validation
+false triggering router navigate::router trigger false navigate
+return result listento listentoonce::listento listentoonc
+add support multiple event names::event multiple support
+fix listentoonce memory leak::fix listentoonc memory leak
+history navigate replace true working::history navigate replace
+implementation isnew save breaks saving models assigned id::implement model break save id
+add pre route event router execute::add event router
+remove trailing whitespace line space chars::trail remove whitespace
+add note view attributes docs id classname precedence::attribute view add note id
+fixed camel case filename doc run script::fix case run script camel
+update trailing slash search params::trail slash param search update
+documentation warn potential conflict id cid::document potential conflict id cid
+collection create save adding unique model::unique model save collection create add
+split infinitive verb tense::infinitive verb tense
+pushstate hashes::pushstat hash
+hyphenate compound modifier::compound modifier
+parameter initialize replaced object::initialize object parameter replace
+forward original options crud methods backbone sync issue 3347::sync method option crud original forward
+collection length updated models removing fetch::collection length fetch model update
+remove wraperror calls fixes 3346::call fix wraperror
+wraperror functionality backbone sync::functionality wraperror sync
+collection create throws missing url exception model wait true::model collect missing url exception
+adding model collection fails::model collect fail add
+server backbone js application serve index html rest api::server side application
+fix listentoonce mem leak::fix listentoonc leak
+fixed issue 3196::issue fix
+ajax error destroying model::model error ajax
+response parsing correct place::parsing response
+clone options passed reset::option reset clone
+ios webkit debug proxy installation error aclocal file exist::ios webkit debug proxy installation error
+add gitter chat badge readme md::badge gitter chat add
+create valid equivalent event successful validation::create event valid
+matches::match
+fix flawed test::fix flawed test
+backbone js current change key trigger phase::key change trigger phase
+update backbone js comment clarity::update backbone js clarity comment
+update backbone html add clarity::update backbone html clarity
+asynchronous validation::asynchronous validation
+bump bower minor version::version bower bump minor
+project alive::project alive
+collection sync::collection sync
+improve readability readme md::improve readability
+update readme match backbonejs org::update readme match backbonejs.org
+incorrect documentation collection remove::incorrect documentation collection
+parsing server response parse false::parsing server response
+backbone prototype inheritance::backbone prototype inheritence
+enable sourcegraph::enable
+parse collection reset::parse collection reset
+suggestion collection adds event::collection add event
+selendroid unable proceed login application::selendroid unable login
+pushstate working parameters::pushstat work parameter
+add version minified script::version script minified
+arguments view events::view event argument
+collection reset modifies input options::collect option reset modify input
+event parameters::event parameter
+swift interface::swift interface
+listento doesn work includes fix::fix listento work
+backbone maintained::backbone
+enhancing model isempty function::model enhance isempty function
+jquery deps::jquery
+uncaught typeerror read property match undefined::typeerror undefined uncaught
+repository downloaded::repository
+sausozluk added::add sausozluk
+nested set change event triggers incorrect listener::change event trigger incorrect value listener
+collection fetch data query option passing actual request::collection fetch data query request
+adding option removing model collection::model option collect remove ad
+backbone events synchronous asynchronous::backbone event synchronous asynchronous
+model parse called collection::collection model parse
+tying backbone marionette jquery browserify::backbone jquery marionette browserifi
+feature request mergeoptions::request feature
+passes navigate options router::pass navigate option router
+feature request return options passed navigate router::navigate router request option feature
+bone assembler::bone assembler
+backbone models server::model backbone server
+url error create record::create error url
+rename events backboneevents::event rename backboneevents
+collection accept negative indexes::collect accept negative index
+timeout issue::issue timeout
+ignore built object properties objects hash tables::property object built hash table
+backbone sends request patch true set::backbone send request patch
+backbone history start issue root param produce effect::history backbone start root param
+adding index method backbone model::model backbone method add index
+fixed bug navigate url truncated::navigate url fix bug truncate
+reducing fetch based promise boilerplate::promise base fetch boilerplate
+production version js file doesn::js version file production
+spaces urls::url space
+backbone prototype events::backbon prototyp event
+backbone js compatibility view::backbone js compatibility view
+collection docs models optional options passed::collection docs optional model
+input validation needed::input validation
+add default support optional routes::route default optional support
+flat ui andorid::flat ui andorid
+object passed listento extend backbone events throw descriptive error::backbone passed object event throw listento error
+virtual attributes feature::feature attribute virtual
+mdn select localization ci skip::mdn appropriate localization
+update javascript tojson api documentation url::url api document javascript tojson update
+error overriding parse method::parse method error override
+delegateevents called initialize view constructor::initialize view call delegateevents
+docs rendering suggestion::doc rendering suggestion
+simple app helpful::help app simple
+declarative event handling views::declarative event handling
+guard missing keywords typeerror::typeerror keyword missing
+typo docs::typo doc
+backbone view init method exists::view backbone method exist
+inside view render set model::view model inside render
+backbone model tojson doesn convert json::model tojson backbone convert
+events api callbacks method names::event api method callback
+issue 3333 listento callback method bound compile time::listento callback time compile
+clear set attributes defaults::attribute default clear
+backbone history navigate strips slash::history backbone navigate slash strip
+transition search params::param search transition
+history start url conversion broken oldie wantshashchange wantspushstate::history start url broken conversion
+parse string int::parse string
+custom comparators::custom comparator
+fix bunch accessibility issues::fix accessibility issue
+listento callback method string::listento callback method string
+optimize underscore proxy methods::underscore method proxy optimize
+backbone collection trigger invalid event::event backbone collection trigger invalid
+add model matches special cased proxy::model add case proxy match
+automatic creation getter accessor functions::creation function accessor functions
+method work::method work
+template undefined::undefined template
+make comparator method behave array sort::method array comparator sort
+add options argument backbone model initialize function::backbone model initialize function
+updated inherits helper function::helper function
+model force validate::model validate
+providing function view id attribute::function view id
+todo remove model dependency view::model dependency view
+todo separation model view::separation model view
+event bindonce::event
+model clear::model clear
+sync default behavior::behavior sync default
+string attributes reseted null::attribut reset null string
+json default post sync::sync default json post
+idea json default post sync::sync default json post idea
+collection sorting updating view::collection sort update view
+relations models::model
+backbone sync default models property::sync model property
+validation datatypes properties::validation datatype
+configurable id field::configurable id field
+ability circumvent models namespacing requirement backbone collection fetch::backbone collection fetch
+single page web applications view features::single page web application
+backbone collection tojson::collect tojson backbon
+el existing elements::el element exist
+specific reason filter don return collections::filter return collections
+add underscore chain method collection::underscore chain method
+collection tests weren passing faulty logic::collection test faulty
+added demo app::ad app
+isn handleevents called backbone view prototype initialize::backbone view prototype
+collection fetch sends models server::model collect fetch server
+validation failure handling::validation failure handling
+jsonp github demo::github demo
+url handling enhancements saving models::url handling enhancements
+added underscore dependencies::underscore dependencies
+app specific base classes::class base app  specific
+models direct access views::view model direct access
+backbone view prototype handleevents missing var::backbone view prototype missing
+backbone awesome::backbone awesome
+ruby nitpick fixed rake users::fix ruby nitpick
+nested setters::nested
+shouldn business logic controller data model::business logic controller
+create separate modules sync code event binding::sync create module separate
+documentation update::update document
+brace::brace
+updates controller doc section::update controller doc
+clicking backbutton win7 chrome backbone js cycles states indefinitely::backbon js chrome backbutton state click cycl indefinit win
+patch issue support json root node::json root node support
+support json root node request response::json root node support
+backbutton support ie6::support backbutton
+cyclic history clicking backbutton backbone js cycles states indefinitely::cyclic history click backbutton
+remove duplicate backbone localstorage docs::duplicate backbone localstorage
+segments url history object property::segments url history
+fix loading routes fragment::routes fragment
+loading route fragment::route fragment
+model validate called properly::model validate
+split source file::source file split
+save specific model attributes server::specific model attributes
+issue allowing json emulatehttp::json emulatehttp
+json posts emulatehttp::json posts emulatehttp
+versions headers builds::versions build
+processdata ajax parameter emulatehttp mode::processdata ajax parameter
+declarative syntax binding change events ui::declarative syntax binding
+update model change callback::model change callback
+optional protoprops hash subclasses:: protoprops hash
+model collection inside::model collection
+mobile friendly framework zepto place jquery::mobile friendly framework
+compiler problem nested scopes results variable::compiler problem
+implementation issue auto triggering error event::trigger error event
+error event called models default::error event model
+multiple inheritance supported extend::multiple inheritance
+simple data bindings question::data binding
+methods binded::method bind
+fix test backbone sync delete datatype::test backbone sync
+module features::feature module
+query params passed model fetch::fetch model pass param queri
+bit helpful error messages rake tasks::error messag help bit
+typeerror result expression list undefined object::typeerror result expression
+access collection model::collection model access
+fix test recursion error saving change callback::error callback save fix chang test recurs
+changing view initialization flow pt::view initialization flow
+backbone sync overwritten individual models::backbone sync overwritten individual model
+changing view initialization flow::view initialization flow
+double submit unchecking item::submit unchecking item
+add backbone model escape html escaping attributes::html backbone model escape
+collection change design frustrating::collection change design
+appending items collection::append item collection
+enabling collection comparator leads average fetch complexity::collection comparator fetch complexity
+ability declare set default attributes model::declare default attribute
+rails response namespace::rail response
+api suggestions fetching models model::api suggestion fetching model
+backbone model tojson called fetch::model backbone fetch
+backbone handle models::backbone model
+form serialization railsy mass assignment::form serialization
+namespacing outgoing requests rails convention::outgoing requests rail convention
+appending fetching collections::fetching collections
+added addat method collection explicit position::method collection explicit position
+add urlbase option model restful url collection::model restful url
+bind enhancements::bind enhancements
+question views rendering::view question rendering
+nested collections::collection nested
+quick fix model event proxying collections::model fix proxy event
+models events collections member::models events collection
+view rendering single item::rendering single item
+view id initialization::view id initialization
+prevent view receiving change event triggered::view receiving change event
+changedattributes broken collection::changedattributes broken
+fixing javascript case sorting comparators::fix javascript sorting
+collection fails model id::collection fail model
+events trigger unbind break multiple views listening model::event unbind trigger break
+collection addorupdate::collection addorupdate
+collection prev::collection previous
+multiple views element::multiple views
+docs point wrong url json2 js::wrong url doc
+view delegateevents el unbind::view delegateevents
+set includes id attribute model::id attribute model
+adding support individual true option fetch refresh::fetch refresh
+export geturl::export geturl
+access collection models::access collection model
+collection refresh release model::release model
+incorrect event currenttarget delegateevents callback::delegateevents callback
+collection create return server response success callback::server response success callback
+models needed load time bootstrapped place::load time bootstrapped model
+question previousattributes::question previousattributes
+implement model attr test::model attr
+model previous abuses scope change event callback::event callback model
+backbone initialized window::backbone initialized window
+underscore methods collection return array models::underscore methods collection
+views referencing multiple models relationships nested::referencing multiple models
+nice backbone history loadurl url parameter::backbone history url parameter
+event bind::event bind
+blocking issues deep attributes cloning models::deep attributes cloning models
+custom data backbone sync::custom data backbone
+urlerror aggressive::
+exceptional errors server::error server
+zepto::zepto
+closure scope::closure scope
+view el string::view el string
+iframe src javascript invalid character error ie7::javascript invalid character error
+adding model instance multiple collections::instance multiple collections
+add collection build::collection build
+pass collection fetch options refresh::collection fetch
+question localstorage server combination::localstorage server
+suppory hyphen delimiter named parameters routes::parameter route
+fix 141::fix
+model save method pass request object parse::pass request object
+parsing data nested collection::parsing nested collection
+destroying models collection::destroying models
+collection hold types models::hold types model
+controller removelastlocation request modify history::controller modify history
+events save::save event
+add ability define view element attributes::define view element
+collection create logic::creat logic collect
+options success called multiple times::success multiple times
+undo set failed save::failed save
+add setupassociations method backbone model::backbone model
+nested models suggestion idea::nested model suggestion
+html5 pushstate::pushstat html
+view scoped events issues multiple views element::multiple views element
+framework adapter::framework adapter
+bind ambiguity::bind ambiguity
+adding models collection::model collection
+doc model tojson::doc model
+fixes 166 unsetting id model delete attribute::model delete attribute
+unsetting id model remove::model remove
+view html instantiation event binding::event bind view html
+optimized check window onhashchange::optimized check window onhashchange
+backbone history method list hashes::backbone history hash
+delete::delete
+mongodb id aliased work model::model id work mongodb
+view events bind::view event bind
+backbutton setting document location hash doesn work::hash backbutton document
+mention super docs::doc super
+question behavior propagating extend function::question behavior propagating
+add index js::index js
+add sync events::sync event
+change event collection length::event collection length
+id url encoded prototype::id prototype url encode
+id url encoded::url encode id
+validate preventing save::save valid prevent
+secure api endpoints collections wrap json serialized arrays inside object literal::secure api endpoints json serialized arrays
+jslintify::jslintify
+question organising model instances shared collections::model instances shared collections
+response objects::object response
+improve multiple collection support::multiple collection
+add previoussavedattributes model::previoussavedattributes model
+collection events refresh add remove::collection events refresh
+feat backbone model merge extend attributes::feat backbone model merge
+bind unbind events time enhancement::bind unbind events
+question backbone practice file upload::backbone practice file upload
+functions events passed delegateevents::events passed delegateevents
+referencing nested models collections::referencing nested models
+add newest route start handlers array end::route array handler
+backbone history start::history backbone
+small documentation typo::documentation typo
+broken link backbone js documentation page::broken link backbone js documentation
+incorrect documentation backbone sync method signature::sync method documentation incorrect
+unwanted string substitutions occur saving model default backbone sync implementation::backbone sync model unwanted substitutions
+add url attributes loading events::url attributes loading events
+painless sync ror server::sync ror server
+models created collection create validated::models created collection
+custom sync methods model scoped::model sync method custom
+routes wait controller fully initialised run::routes controller fully initialised
+mailing list::list
+collection fetch broken::collection fetch broken
+overriding model id attribute::overriding model id
+unset fires change event isn attribute object::fires change event
+collection save::save collect
+problem jquery ajax::jqueri ajax
+model validate based results xhr request::model validate xhr
+destroy persisted model sync::destroy persisted model
+backbone cleanup prevent memory leaks::backbone memory leak
+seo backbone js::backbon js
+event bubbling::event bubbling
+backbone history working ie7::backbone history
+update send delta::update send
+updating models based nested json objects::nested json object model
+make backbone view delegateevents lookup method bound event calltime::backbone view delegateevents
+documentation enhancements::documentation enhancements
+broken json2 link site::broken json link
+collection create validating appropriately::collection validating appropriately
+refresh benefit overriding parse::parse overriding refresh
+prefix controller routes general::route control prefix
+improve error handling consistent arguments handlers::error handling
+question javascript framework backbone::backbone javascript framework question
+question model save calls error callback function successful update::error callback function update
+make custom methods model direct properties::custom method model
+websql backend localstorage exists::localstorag exist
+collection refresh undefined::collection refresh undefined
+don set content type header requests::content type header requests
+problem template view::view template problem
+collection fetchmore::collection
+collection create doesn initialize model attrs::collection initialize model
+collection remove colleciton models::collection model
+escape single quotes::singl quote
+alternative set backbone model::set backbone model
+request parsing function::parsing function
+typeerror result expression configure undefined function::typeerror undefined function
+fixed documentation tests cases isnew handles negative ids::fix test documentation case
+store js todos sake older browsers::older js browser
+multiple model destroy locking backend::multiple model destroy
+fix escapehtml recognising::fix escapehtml
+fetching model calls validate method::model fetch method
+comparator reverses model order collection::comparator reverse model
+outdated backbone min js::backbone js min
+ruby accessors model::ruby model
+qunit include messed::qunit messed
+backbone controller options::backbone controller
+url reversing::url reversing
+generally enable validation::enable validation
+previous attribute returns wrong::attribut wrong
+ie7 contentwindow error line 693::contentwindow error
+view events removed extend::view events removed
+post data application mime type::post data application
+url reversing::url
+make defaults hash attribute accept functions simple data types execute function creation model::model function attribute hash
+make haschanged private::make haschange
+model multiple collections work::model multiple collections
+unbind events switching views::unbind events switching
+override extend method::extend method overrid
+collection fetch pass options refresh function::collection fetch function
+add support jquery deferred ajax calls::jquery deferred ajax calls
+good examples drag drop functionalities::drag drop functionalities
+questions::question
+small fixes todos app::fix small app
+expect upcoming backbone js major release::backbone js major release
+match header::match header
+collection parse::collect parse
+fix localstorage plugin::fix localstorage plugin
+controller created routes set apply route::controller created route
+view events handler enhancement proposal::event handler enhancement
+backbone model defaults function::backbone model default function
+override extend::override extend
+added primitive base class creating custom classes::primitive base class
+primitive base class::primitive base class
+static json model data source::static json model
+comment fix::fix comment
+updated model constructor pass options set::update model constructor
+saving model attribute sends server::saving model attribute
+model save pass validation attributes::model validation attribute
+saving model return attributes accessible::saving model return attributes
+documentation bug::document bug
+adapting test suite jquery noconflict::jqueri test suit
+fixes issue 263 collection remove models::collection remove model fix
+collection create doesn run error callbacks::error callback collection
+model ids mongodb::model id mongodb
+synching base class collection::synching base class collection
+preprocessing model attributes set::preprocessing model attributes
+previousattributes updated silent change::previousattributes updated silent change
+question controller view events interaction::controller view events interaction
+support ender js::js support ender
+backbone sync issue::sync backbone issue
+fix custom events models inside collections::fix custom events models
+triggering events manually objects inside collections typeerror::triggering events typeerror
+convenient syntax binding key events::syntax binding events
+triggering location change controllers::location change controllers
+backbone sync params::backbon sync param
+debounce view events::view event
+reverse sort order models collection::order models collection
+unsilence setting attributes model initialization::attribute model initialization
+make hashstrip regex strip bang hash present::hash regex strip
+workaround jquery jsonp replacement::jquery jsonp replacement
+problem delegateevents functionality subviews::subview delegateevents functionality
+unbind model event trigger::model event trigger
+add 404 callback backbone controller::callback backbone controller
+backbone baseurl jsonp added::backbone baseurl jsonp
+nested views::nest view
+clarify events aren fired model validate method fails::fired model fail
+collection sync abort ajax request running::sync abort ajax request
+modifying collection iterating::collection iterating
+renaming id couchdb::id couchdb
+element fetching results::fetching result
+support websocket::support websocket
+filter backbone controller::backbone controller
+filters controller routes::filter controller
+minified ver backbone repo updated removed::backbone repo updated
+update documentation include note jquery dependency::update documentation jquery dependency
+display constructor logging objects console log::constructor logging objects
+support views inheritance::view inheritance
+backbone history loadurl undefined::backbone history loadurl undefined
+save model previous issues post create update request::post create update request
+added backbone controller reverse::backbone controller reverse
+adding backbone controller reverse::backbone controller reverse
+easy access super function::access super function
+dispose views resources::views resources
+typeerror backbone model extend function::typeerror backbone model
+reference calls variable list definition backbone events::reference calls variable
+backbone history exception thrown route character::backbone history exception route
+throw exception server response wrong::server response wrong
+apply logic creating model collection create add::logic create model collection
+pub modules nice::module
+stale annotated source file todos:: stale annotated source file
+inconsistent result haschange::haschange result inconsist
+correct success callback fetch method reference window::success callback fetch method
+spine js good read::js spine read
+current attributes models previous early::attributes model
+collection method model idattribute property won work mongodb models::collection model idattribute property
+backbone model tojson doesn serialize nested collections::backbone model serialize collection
+backbone doesn objects collections saved silent true::backbone objects collections
+controller documentation::controller documentation
+backbone js incompatible jquery mention docs::backbone js incompatible jquery
+support namespaced events::namespaced events
+delete options comparator::delete options comparator
+figure::figure
+delegateevents backbone view constructor introduce unnecessary performance penalty::delegateevents backbone view constructor performance penalty
+save events models::events models
+collection batch loading::collection batch loading
+add world::add world
+duplicate explanation index html::duplicate explanation index
+support models level attributes::models level attributes
+collection initialization behavior improvement::collection initialization behavior
+creating multiple models defaults deeply cloned::multiple models cloned
+question init view inside model::question init view model
+add travis ci examples::travis ci examples
+latest code published npm::code published
+multiple controller callbacks single common hash url::controller callbacks
+expose helper functions::helper function
+inherits::inherit
+bring escapehtml support single quotes forward slashes owasp recommendations::bring escapehtml support
+collection create work silently adding model::collection silent add model
+expose var decouple library dependency::decouple library dependency
+handle view removed dom::handle view dom
+send changedattributes backbone sync::changedattributes backbone sync
+modifying backbone history getfragment work route::modify backbone history route
+backbone requires jquery::jquery backbone require
+events trigger continue callbacks error::trigger continue callback
+added history matchurl::histori matchurl
+sync method bound instance properly::sync method properly
+binding collection refresh view effect::collect view bind
+url function respect parameters::url parameter function
+refresh event collection::collect event
+added usetrailingslashes option::usetrailingslashes option
+rails form serialization::rail form serialization
+change events model fired attributes set::event model fired attribute
+fix handling content add fresh annotated source::fix handling annotated source
+todos entries::todo
+model method configure::model method configure
+log warning dependencies unavailable::log warning dependencies
+backbone geturl default implementation doesn work model fetch::backbone geturl model fetch
+silent routing::route silent
+added backbone view jquery integration::backbone view jquery integration
+backbone history start depends jquery zepto::backbone history jquery zepto
+model set triggered silent true option subsequent method fires change event::model triggered silent event
+history pushstate true doesn upgrade hash based urls::history pushstate hash based urls
+issue resolution binding inheritance::issue binding inheritance
+clarified examples fixed typos::examples fixed typos
+add remove events triggered collection::events triggered collection
+regression collection add model initialize doesn data::regression collection add model
+fix issue 413 collection add fail duplicates::fix collection add fail duplicates
+collection add throw error existing model id present::throw error existing model
+jquery style binding additional data::jquery style binding
+strategy pulling huge collections::strategy pulling collections
+arbitrary attributes view options::arbitrary attributes view
+add feature bind form elements backbone::feature bind form elements
+fix initialization models previousattributes collection reset issue 407::fix initialization models
+models initialized correctly created inside collection::models initialized correctly
+suggestion solve unbind problem::unbind problem
+collection constructor builds models initialize::builds model initialize
+adding 4th argument router route set context callback::argument router context callback
+unset option effect::unset option effect
+stop view add parent element template::view parent element template
+separate view collection model js file recognize::view collection model js file
+collection comparator fails::collection comparator
+merge model silent flag::merge model silent flag
+adding history segment url retrieval::history segment url retrieval
+abort pending requests backbone sync::pending requests backbone sync
+create additional quiet option model set weak version silent::additional quiet option model silent
+implement optimized mobile version backbone website:: mobile version backbone website
+jettison setdomlibrary favor backbone::favor backbone
+bug backbone don work ohio::bug backbone
+backbone view match level elements::backbone view match
+ie7 returns host hash fragment::host hash fragment
+list methods documentation alphabetical order::documentation alphabetical order
+backbone ajax reflect setdomlibrary::backbone ajax setdomlibrary
+missing undelegate undelegateevents backbone view::undelegateevents backbone view
+save post model data::post model data
+router remove dynamic removal routes::dynamic removal routes
+backbonejs org::backbonej org
+discussion add event immediately wait true::event immediately wait true
+tweak data structure events::tweak data structure events
+events issue::events issue
+history getfragment handle uninitialized options::history getfragment handle uninitialized
+model set undefined doesn rise event changing state::model set undefined event changing
+additional documentation model clear::documentation model
+model clear deletes id::model id clear
+router hash error firefox::hash router firefox error
+style add curly braces optional::style curly braces
+comparator usage backwards compatible::comparator backwards compatible
+regression initializing model fails::regression model fails
+backbone singleton::backbone singleton
+changed view configure return options setting::changed view return options
+route event triggered accessing url browser::route event triggered accessing url
+collection preparemodel::collection preparemodel
+refactor preparemodel::refactor preparemodel
+add super helper child prototype::super helper child prototype
+fix 1292 unexpected results passing undefined model haschanged::unexpected results undefined model
+unexpected result undefined passed backbone model haschanged::unexpected undefined backbone model haschanged
+removed harmful instanceof operator preference duck typing fixes 1288::harmful instanceof operator duck typing
+fixed broken fragment links underscore proxy methods::broken fragment links proxy methods
+adds leading semicolon protect build tool concatenation bugs::semicolon build tool concatenation bugs
+multiple backbones inside node makes instanceof fail::multiple backbones node instanceof fail
+make backbone plugin friendly::backbone plugin friendly
+router redirect means browser::router redirect browser
+avoid throwing defined::avoid throwing defined
+improve performance array linked list implement backbone events::array linked list backbone events performance
+fix 1282 callback list retrieved event::callback list retrieved event
+refactor backbone events fix altering bug::backbone events fix altering bug
+add deepclone object methods::deepclone object methods
+pass route option router callbacks::route option callbacks
+accessing router options routing methods::options routing methods
+bug silent isn chaining set::bug silent chaining set
+update qunit::update qunit
+null undefined invalid ids::null undefined invalid ids
+fixed infinite loops pushstate hashchange unavailable::infinite loops pushstate hashchange
+track routes added dynamically::track routes added dynamically
+uncaught referenceerror foo defined::uncaught referenceerror foo defined
+question shouldn push unshift add event::question push unshift event
+constructor return values extension object::constructor return extension object
+persist single object::persist single object
+return constructor applied inherits::constructor applied inherits
+whitespace cleanup extend collection prototype chain::extend collection prototype chain
+silent respected model clear::silent respected model
+unexpected behavior treat backbone model instances classical oo fashion::unexpected behavior treat backbone model
+collection inefficiency::collect
+fix 1252 backbone history pushstate enabled incorrectly handles urls query params browsers support:: backbone history pushstate enabled incorrectly
+add router specs pushstate true::router specs pushstate true
+adding walmart mobile::walmart mobile
+type url installation instructions::type url installation
+return statements delegateevents::return statements delegateevents
+backbone history pushstate enabled incorrectly handles urls query params browsers support::backbone history pushstate enabled
+add iterators collections::iterators collections
+add getters setters::getters setters
+backbone save success error callback issue::backbone save success error callback
+collection execute reset operation model trigger destroy::reset operation model trigger
+add html append::html append
+override points plugin support::points plugin support
+model url doesn match documentation::model url documentation
+defaults don propagate multiple levels inheritance::defaults propagate multiple levels inheritance
+removed unnecessary::removed unnecessary
+simplify fetching single models aka incremental collection::fetching single models incremental collection
+collection id return undefined::collection id return
+rapid rendering views multiple button clicks::rapid rendering views
+collection clone::collection clone
+add route chaining::add route chaining
+custom view attributes shared instances::custom view attributes shared instances
+adding mit license statement:: mit license statement
+tighten handling fragments router::tighten fragments router
+fix 1228 tagname provided function::tagname provided function
+conflict plugin click events::conflict plugin click events
+added support nested id model idattribute 1215::nested id model idattribute
+request support regexp route method::regexp route method
+big bug default route router::big bug default router
+sync event triggered method success callback::sync event success callback
+tagname defined function ala classname::tagname defined function
+escape return null attribute::escape return null attribute
+backbone routes fail root option::backbone routes root option
+model url behavior slightly documentation::url behavior slightly documentation
+error callback model save doesn parsejson response::callback model save parsejson
+model save data wait true stores attributes bad response::model save data attributes bad response
+model tojson collection unused options argument::model tojson collection options
