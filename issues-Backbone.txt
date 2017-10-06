@@ -1,0 +1,2584 @@
+dynamic view attributes on re-rendering
+changed extend function to allow access to overridden methods with: this._super()
+add option that allow change default put method to patch
+declare module name on amd setup
+collection docs: if options is passed in, models is mandatory
+small update.
+backbone.collection constructor wrong optional params
+collection.add partial models merge with default
+added support for arrays to `model.unset()`
+add option to validate a single property on model.set
+unable to use global jquery.ajaxsetup:beforesend on delete request
+optimize code of setting temporary attributes
+add example to backbone.$ for commonjs
+document patch
+documentation for patch is missing from backbone.sync
+allow model#save with patch: true to take different attrs
+model.haschanged not getting set to empty object after use
+docs: fix url to mdn's json.stringify() tojson behavior
+tojson and the option argument
+patch support + transforming keys between server and client
+events selector by name or complex id names
+should the success callback be executed on a 304?
+removes unused arguments from private collection methods.
+uses listento instead of on between the collection and model.
+listentoonce creates unexpected memory leak in _listeningto object
+how is the order of routes in a router guaranteed?
+cool library for backbone.js
+dat2mat
+prevent memory leak by `stoplistening` on backbone.model `destroy`
+model.destroy() requiring set of noted idattribute to send delete
+use rawgit for linking to old versions of docs
+router silent:true : initialize the view without calling render
+add missing semicolon to .compact()
+maintain a lodash branch for backbone
+switch from double to single quotes
+[question] collection attributes and their events
+need trigger event of adding multiple models
+does it hardly depends on jquery since version 1.1.1
+history should accept a route matching behavior
+urls on collection
+order on a collection should never trigger a sort event
+added binary search for collections
+better documentation for backbone.router, backbone.history
+changelog: fixed typo
+question about events trigger process
+add a tldr license summary!
+collection.add() not working as intended with {mege:true}
+`sort` triggered on collection.fetch even though no changes occur
+model.fetch options setting custom parse
+mvc is good
+no documentation on complete callback
+include query string parsing in the changelog.
+extend backbone.view#delegate to listen to models
+router backwards incompatible change
+pushstate issue in tests for ie9?
+update readme urls
+force navigation, even if the url isn't changing.
+(bower req) add backbone.min.js
+this.options undefined
+fix:get null by raw data when idattribute is speacfied
+where to put $.ajaxprefilter
+backbone.history / router.navigate {replace:true} not working (related to issue #3182)
+modular routing dummy route workaround fix requested
+allow users to override `isequal` method
+any detail tutorial about the router?
+how could i manage all the template files?
+jquery xhr success, error, and complete are deprecated
+only test node 0.10.
+add test for urls in params.
+router._extractparameters decode caused the issue
+update phantomjs
+add reset opt-out feature to collection.initialize
+removing the ie8 patch requests fix
+.tojson([options])
+fix error when using plain object for collection `set` with custom model idattribute
+get a error, network problems?
+should internal variables be static properties of built-in classes?
+backbone's view constructor is adding a call to this.delegateevents in the min version and the dev version is not
+model.cid can't loaded from json
+emulatehttp overrides jquery beforesend
+unable to clear the earlier rendered view even after replacing the element
+model.prototype.chain
+create nowhisky
+need help to parse the responce.
+collection.sort always trigger event
+collection.set() takes a long amount of time for high number of models
+backbone.$ cannot be initialized in firefox addons
+add `shallowapi` and `shallowurl` to support shallow apis
+add a `shallowurl` property to model for shallow rails routes
+added jquery as a dependency for commonjs modules
+handle incorrect hash/search values in ie6.
+amd support breaks non amd applications using global window.backbone
+for use in version 1.1.2 throw a error
+how to access a huge json coming (from a spring restful service) in a spring mvc app using resttemplate
+add spm support
+using idattribute with nested id object
+switch model/collection on an existing view
+places underscore as a peerdependency
+why do router callback params have a trailing null?
+backbone collection get returns undefined even if the model exists
+minified 1.1.2 doesn't correspond to source
+try pullrequest without fork
+collection's model field to optionally be a function
+which browser versions are supported?
+classname function call order
+add an optional argument 'trailingslashissignificant' to backbone.router...
+collection.model not called with collection as context
+allow collections to determine uniqueness, not models
+revert generateid
+set attribute instead of property.
+save() example bug on main backbonejs.org page
+android web browser turns backbone.history.history into null pointer sometimes
+bower: ignore index.html
+add model.prototype.hasall
+decode the fragment before comparing.
+get a value from calling trigger()
+fragment matching on popstate checkurl()
+model silent save
+nuget package dependancy problem
+module-system, grunt and jshint/jslint formatting
+complement for parse
+after a successful collection.create(), can't do a collection.get( id ).
+added reverse option in the collection sort method
+quick fix jashkenas/backbone#2955
+fix minor typo: `messsages` --> `messages`
+configure which underscore to use
+single model in multiple collections?
+history api is disable in chrome packaged app, any solution to make it work?
+ignore other unecessary bower files
+`options.at` value unhelpful during bulk `collection.add` operations
+pull request for issue #3108 -- allow proxying of options to 'url(...)' via 'fetch(...)'.
+simplify fragment logic.
+add #getpath to mirror #gethash.
+backbone.model.save not calling success/error functions
+router parsing of fragment hash causes information to be lost or misinterpreted
+can i delegate an event to a element outside a view element from the same view?
+requirejs and jquery
+no way to execute route without mutating history first
+model.haschanged returns true after change event ends
+router fails to load optional query param
+fix for delayed networking data overwrite bug
+any reason to ignore the minified files in bower.json?
+just slice the root.
+crud to http method default mapping
+history#atroot handles params without path.
+problems with collections included in a template
+remove unnecessary checks and variables.
+minor spelling fixes in comments
+added events aggregator in index.html
+fix #3078 - router#execute receives route name.
+allow user defined view options to be assigned onto the view
+avoid `sort` on collection's `add` method when collection is already sorted.
+insertion sort on add method that should sort.
+proposal: view.prototype._createelement to allow for overrideable dom element creation
+remove broken link to diaspora example
+failing test for #3017
+test node 0.10.x version on travis.
+backbone local storage
+questions about generateid
+a "url" property or function must be specified for collection error
+proposal: backbone.router.execute add action name to arguments
+test the delegate interface.
+remove jquery amd dependency
+amd boilerplate still defines jquery as a dependency
+link to documentation tool for backbonejs.org?
+does model.save() work when in context of server side node.js?
+proposal: backbone.model::matches
+chrome extension--local storage
+broken link for tilemill example
+_previousattributes isn't cleared after change events.
+model attribute aliases (feature request) in views
+correct split infinitives.
+fix document.domain bug in ie < 8;
+array attribute still doesn't trigger change event when is changed
+always delegate in #setelement.
+array model attribute doesnt have onchange trigger
+using polymorphic models breaks backbone's ability to ignore existing models when adding an array of objects to an existing collection
+why is amd-style define definition anonymous?
+update devdependencies
+remove un-used local variables
+potential fix for #3051. add ismodel method to collections.
+would be great if `instanceof` checks within collection were done against `collection.model` rather than `backbone.model`
+control over put vs post for models with supplied ids
+pass along `textstatus` and `errorthrown`.
+router#navigate to the same url doesn't trigger
+backbone is appending "?" in url
+polymorphic collections not working in 1.1.2
+invalid `this` in collection.model function
+update polymorphic example
+fix #3015 - history#stop cleans up iframe.
+update collection docs on underscore methods.
+send correct 'at' when firing 'add' event
+change the reference to rails in the 'sync' docs to reflect rails 4
+fixes #3028 assign collection in _preparemodel
+switch url check order for the model
+allow customization of parsing id.
+accessing view options during `el` construction
+pass along model and comparator to cloned collection
+backbone no longer works w/ ender (backbone.$ not set when exports is defined)
+re #3029 guard against unavailable edge underscore proxies
+add new `_.partition`
+backbone collection create does not work with an existing model and wait set to true
+feature: do not remove item if 202
+a facelift for `events#off`.
+more consistency in loops.
+update readme.md
+a little cleanup of `collection#set`.
+bower install issue
+success method not triggered on collection fetch with params
+check that model exists before trying to verify uniqueness
+bb 1.1.2 + lodash + requirejs
+button in view is clicked "automatically" by backbonejs
+collection#create doesn't trigger request, sync and error events
+do not trigger router/history events if router#execute returns false
+in oldie, iframes are never removed during history::stop
+adding a model to a collection sets the model's collection property, how to set not to do it?
+collection.clone() should use options
+add settings attr to options on backbone.sync
+add a comment about clearinterval.
+handle newlines in route params.
+backbone is unable to find the dynamic div created by template
+add scope to success and error callbacks
+v1.1.1 breaks routing with encoded newlines in query strings
+history native calls
+backbone model attributes error
+`clearinterval` use and titanium.
+view hooks for native and non-jquery libraries
+what it the cause of a loaderror when typing >require 'money' irb
+1.1.1 breaks browserify in the minified file
+update index.html
+no need to use the `shim` config in the test-amd.html.
+no sync event when destroying model
+1.1.1 release breaking changes
+fixed link to the walmart mobile app
+removing callbacks not working as expected?
+backbone.history to trigger 'load' event when loadurl call happens
+error on the file backbone.js
+allow attributes to override their json serizlization by providing `tojson`
+add __parent__ property inside extend
+bower issues
+route exception in ie7
+remove item from the list of tutorials
+fix #2976 do not add multiple models with same `id`
+re #2976 allow `id` values to be generated from a function given attrs
+mix in sortedindex from underscore to collection
+update copyright year range
+generate url from routes
+[docs] move examples section to separate page
+model.destroy({wait:false}) with a synchronous model.sync does not send events in the expected convenient order
+configurable list of view options to be merged as properties
+view `scroll` events do not delegate
+nested optional parts of route route string are captured
+collection length does not match models length, when fetching and parsing data with duplicate ids
+split components to separate modules
+would a refactored-out "setmerge" method be possible?
+collection.get returns object.prototype methods
+enhancement: access to subproperties with getter and setter
+model.fetch options.success vs. options.error callback signature mismatch?
+backbone should also try to require lodash
+updated pathstripper
+query parameters in hash fragment are removed in calls to backbone.history.navigate()
+backbone validation for date field using bootstrap month and year only datepicker, even if the input filed has value still i get error message. this is my code.
+doc inconsistency in collection constructor
+adding the functionality to have a or operated find.
+multiple backbone.routers and the default route â€” order of matching routes/loading routers
+.once and .listentoonce against multiple events fire once for each event instead of absolutely once
+model.isnew() is true but put is still issued rather than post
+collection.create should return the request object
+change typeof <v> !== 'undefined' to <v> !== void 0
+native view and jquery-less history
+fix #2929 drop `collection` reference in removed model
+unicode path
+collection.create adds a model even if it's not valid
+router.navigate never trigger the route function defined in router.js like this case.
+could `model.prototype.extend` add a parameter as `extendself`?
+backbonejs model to save mulitpart formdata
+server interaction callback "always" (jquery inspired)
+decode location.pathname
+fix double parse on collection#create
+add provision for `before` and `after` hooks in a router
+document url and urlroot options removal
+undocumented bc break in backbone 1.1
+in newer versions of backbone, cannot get query from backbone.history
+add an event for collection#create so the request is not lost when using { wait: true }
+minor code tweaks to pass linting
+introducing model.getraw()
+adding two identical callbacks
+problem with my c code to find nth smallest element.i think its in the recursion
+added documentation for backbone.(h|h)istory
+backbone events still fired the old event
+support model.set('user.name', 'joe')
+clarify that listento() does not allow a context to be supplied
+gitignore bower_components
+url conflict between collections and models
+type check collection#get arguments.
+move delete back to model.remove
+pass along jqxhr, status and errorthrown from jqxhr callbacks
+ajax options on errors triggers
+typeerror: targetmodel is undefined with collection.fetch
+problem on `backbone.sync` using new version of zepto.js
+add getby method to return model based on an indexed attribute lookup
+model with id "undefined" returned by collection.get(obj)
+how to listen to the view.el events inside view?
+collisions between id and cid within collection cause mayhem
+non 200 status code not catching error handler on saving model
+add saved and fetched events for more flexible requests handling
+problem with idattribute
+fix #2915 - no need to default view options.
+view in 1.* alters arguments[0] before calling initialize()
+pausing for some time in the backbone.js
+view.remove() doesn't seem to remove the contents of its .el and $el property
+simplify model#url, split long line.
+security issue
+tailing slashes causing 301 redirects on some servers
+navigate no longer preserves url parameters
+how to break backbone collection such that each of the child collection also listen to the events that will be registered by parent collection
+changing validate availability check to use "&&"
+split up long lines for style and readability.
+several lines contain too many characters
+fixed typo with `model.isvalid()` in docs
+router problems
+merge option for collection.set is not working in a specific case
+add missing punctuations, fix pluralization, remove trailing 'h' charact...
+add field for using cookies in addition to urls
+collection.create expects http 200 response instead of http 201
+move the faq above the examples.
+do not send custom headers to worse than legacy servers
+update component.json
+the examples list should be moved at the end of the documentation
+[regression] location.search is ignored for routing via .history.start
+brew doctor
+backbone amd module doesn't return factory.
+fix broken link
+follow semver
+better query string approach
+docs: add validation error example, and note changed behavior for model validation in changelog.
+fix for shadowed _ dep and broken amd tests
+infinite loop on change event
+add favicon to backbonejs.org
+how can i set the default sort arrow to a column when the grid is loaded. ?
+fragment = fragment.replace(pathstripper, ''); querystring support
+how to convert the below synchronous ajax call to asynchronous?
+model reset
+make isnew use the has function
+unable to populate collection from raw data
+update version of underscore dependency
+fix â«requestâ», â«syncâ» and â«errorâ» events documentation
+clarify underscore (>1.5.0 vs >=1.4.3) for 1.1.0
+model attribute named constructor is lost (starting in v1.1.0)
+router.navigate(trigger:false) still triggers routes when used in hashchange mode
+trailing slash for default route
+add support for runnig tests with jquery-compatible libraries
+fix up the `repo` key and relax underscore's version requirement
+fixed invalid component name error when installing backbone with compone...
+remove extra comma from component.json
+inconsistent docs regarding arguments of error callbacks
+remove jquery dependency.
+documents url, urlroot constructor changes to model in 1.1 in change log
+targetmodel.prototype returns undefined
+add jquery as a commonjs import
+global events delegation
+fix amd tests
+interested in dropping dependencies on underscore and jquery?
+improve events performance in some cases by 20x.
+umd wrapper for amd, node and browser globals.
+fix #2846 nested "change" events trigger with correct options
+problem with change event in firefox
+clarify bindall and events hash `this` binding in faq section
+fix #2844 - ensure prototype is not enumerable.
+style tweak, remove jquery dependency.
+fix #2850 - use `hashchange: false` where appropriate.
+tests are failing in ie6-7
+close #2847 assume obj as an id first in collection#get
+key of a changed attribute
+if collection has an item with "undefined" as id, method get() returns this item, regardless its param
+'nested' change events are fired with the incorrect options.
+register events on initial page with slient:true passed to backbone history start
+firefox 3.5/3.6 bug
+enhancement to 'model.set' mechanism
+collection `parse` semantics is ambiguous
+uncaught typeerror: object #<object> has no method 'replace' backbone.js:1357
+logical operators in route hash.
+model ``invalid`` event is triggered before model is initialized.
+_addreference, to mirror _removereference
+add docs links for 0.9.10 to 1.1.0 to changelog
+correct example of using a factory function for collection#model
+query string issue with pushstate:true in backbone history
+remove method removes the element from the dom
+fixes potential issues with comparator and bindall
+`options` isn't being set on line 444 in chrome
+save with patch method won't call tojson (and therefore no custom method for creating json)
+remove speed test from unit test suite.
+add new methods from underscore 1.5.2.
+fix router test
+deep-model missing
+change documented method signature of "new collection" and "new model"
+collection.create() with wait: true triggers collection.parse()
+correcting indexof condition in history.getfragment
+removal of `this.options`.
+discuss router urls format
+removing backbone models from a collection using the collections.foreach method can cause models to be missed
+[q] get notified about id changed
+use qunit `raises` instead of `throws`
+clarify collection sync events in event catalog
+prevent parse in save method
+inconsistent fragment usage leads to incorrect navigation behavior
+fix for empty object in listento
+model.url() doc not up to date w.r.t. to url and urlroot.
+add bower.json file
+update images to retina versions
+collection's 'create' method seems to need 'index' option.
+passing parameters into a view
+git push error
+compress all images
+add 'query' option to allow query strings in fragment
+moves the merge code from the collection set method to a method on model...
+fixing minor inconsistency in docs
+allow operation with dense array for backbone collection
+can't force route evaluation on querystring changes
+no longer able to set url of a collection in collection constructor function
+passing {wait: true} to save (sync) the model changes the model's attributes before options.success is called
+can now pass optional keys to omit when cloning a model
+fetch with a specified url overrides model's url
+ie8- patch request error
+shorter defaults in model ctor
+support multiple routers with overlapping routes
+model instance level error handlers overwrites any global jquery error handling
+problems by calling _.bindall(...)
+transition from hash-based route: check it's really a route (and not an ...
+improvements of collection.push and collection.unshift
+person not defined
+collection.set() with {merge: true} and defaults in model
+backbone.view super
+fetch success response vs destroy success response
+add a bower.json file so backbone can be used as a bower component
+removed wrapping when emulatejson is true, can't see a reason for it.
+fix #2470 do not mutate options in _preparemodel
+collection.fetch( { add: true } ) still removes original models
+wrong repo fail...
+decoupling of router and history
+allow passing of a custom merge function to collection set()
+update underscore dependency.
+collections do not care about order items are insert
+calling set on collection with merge: false data ignored when matching model found
+_byid is getting lost when collection#model is a function
+backbone.$ is unavailable when using lmd, common-js and jquery 1.10.2
+fix the way model.defaults are merged with passed in attributes.
+is it good idea to use backbone with reactive.js?
+add "cid" attribute to backbone.collection
+autovivification for collections.
+added {unshift: true} option to collection.unshift
+fix stack overflow exception fired in collection.set with large collect...
+"rangeerror: maximum call stack size exceeded" in collection.set with v8
+fix #2765 - strip hash and query for matching.
+ignore hash-part in `loadurl` when `hashchange = false`
+managing collection with model with complex ids
+i have problem with append my collection.
+reduce jquery dependencies in tests
+collection.set() peformance issues with large data sets
+resort collection on model change
+callback before element created
+attributes doesn't applied to el passed into constructor
+name conversion of methods/properties about initialize/attributes/changedattributes
+model.parse may no longer set the idattribute
+collection.on("myevent") original model?
+model set does not update the haschanged property correctly
+why clone the options in model#fetch,model#destroy,collection#fetch...?
+unit test for issue #2750
+changes to a collection's models doesn't change tojson()
+remove rakefile in favor of npm scripts
+added simple custom header support
+a mahor
+auto tests with guard
+add favicon to test/index.html
+optionally let collection.set keep unsynced models
+app.sync stringifying my object. [object object]
+backbone learns 'sync:fetch', 'sync:save', and 'sync:destroy' triggers
+deprecation of jqxhr.success(), jqxhr.error(), and jqxhr.complete()
+fixing semantics of listeners hash
+problem with parse and create
+router stops listening, trying to isolate cause
+fetching a single model of a collection
+framework abstraction adapters?
+_listeners misnomer?
+rewrite model.get() to access nested level data
+race condition where polling or server push removes new models
+(2x) new collection -> new backbone.collection
+wishing on how to improve collection
+backbone.model.save doesn't propagate options up to sync for signature ".save(options)"
+sign in with twitter in jquery mobile app using cordova
+fixing travis-ci badge after repo move
+suggested fix for browserify/insert-module-globals conflict
+fails to load jquery under newer versions of browserify/insert-module-globals
+changing indexof behaviour for collection class.
+delete listener when its events map is empty.
+fix #2719 - check collection.add will only merge or delete existing back...
+couldn't pass string as an argument to backbone view
+router: better catch-all (/.*/) route
+fix #2719 - check that the return from collection.get is an object
+collection#set treats object.prototypes as existing models
+refactors backbone to support multiple design patterns and a more consistent code-base for any project.
+in extend function,the keyword "return" is unnecessary.
+add docs for the view#template convention.
+unset/clear with { validate: true }
+using model's collection option does not behave intuitively
+collection#create saves the model even when adding it failed
+model::destroy() triggers 'request' event on collection but doesn't trigger 'sync'
+fixed two stand-out typos :)
+make view options accessible
+dependency injection for views
+backbone.js save model don't cause ajax put request on android 2.x
+add willbevalid to model
+update comparator example in the docs
+add sortbyattributes for collection
+the "request" event is fired after "sync" when model is fetching with "async": "false" options
+remove null options guard
+suddenly my backbonejs collections don't work in chrome when the code is minified
+make delegateevents work with overwritten callback
+how to manage multi dialogs?
+validation won't stop set
+know when a model exists but attributes aren't changed during fetch merge
+catching json parse errors
+models added to collection after initialize is called.
+sync events confusion?
+model#destroy of persisted model does not trigger 'sync' on collection
+views no longer have an options property?
+documentation: add digg reader to the examples section
+missed line in uncompressed backbone.js
+undesired proxying events from collection models
+wraperror shadows original results of options.error callback
+discussion: breaking backwards compatibility
+update to model and collection tojson documentation.
+fix for `extend` to allow a type's `prototype.constructor` to be replaced
+add `producepath` method to backbone.history
+fix spelling error in documentation
+addition to the documentation
+attributes of model's constructor misleading
+deferred event triggering
+when merging partial models by collection.set, attributes with default value are reseted back to its default value
+add a modify method
+inherit events from setelement($jqueryobj)
+do not use `json` datatype param for delete requests using native delete method. see #2218.
+version bump
+fix #2670 - document route events.
+incorrect callback parameters listed in "route" event docs
+add this.options to every view
+avoid jumping to the top of the page when resetting the hash fragment
+default model parameters enforced in collection.fetch()
+utf8 in route expression
+allow filtering of incoming data
+how to bind events conditionally in back bone?
+how to work on focus events
+router.route() method does not update routes hash
+change event registration order not honoured
+make ajax a local method to models/collections
+fix #2656 - trailing slash on root.
+replace "== null" with "_.isnull || _.isundefined"
+model fetch does not clean "non-model" attributes
+optional trailing slash
+fixed typo in index.html
+doesn't load the underscore or backbone libraries
+backbone.history.start does not find route
+how does both to shuffle and pluck a collection?
+allow multiple callbacks per event
+model.save() success is called before 'sync', other events
+change how the parent constructor is called when extending objects
+fix routing issue
+a "force" option for model.set()
+ne layoutmanage
+collection set isequal
+typeerror: this._bindroutes is not a function
+collection.clone() supports options deep
+reconsider amd support
+optionally update source objects when model or collection changes
+allow success and error on fetch options to be an array of functions
+make model methods like prototype to collection that owns this model.
+removed unnecessary variable 'matched'
+give model.set a parse option
+the documentation for model.get incorrectly says it returns a value
+no way to access "raw" view options in backbone master
+model constructor will override url even if same function is already in model prototype
+fixed broken link to test page
+collection#model executed with blank object scope
+collection.indexof() problems with issorted == true
+validation on object construction
+accept: application/json
+merging models recursively
+inconsistency in `invalid` event parameters
+reconsider package manager support (bower, component(1))
+surrogate interferes with collection.set accepting arrays of model subtypes
+added silent option to model.destroy
+memory leak in _listeners with #stoplistening implementation
+how can i pass the results of collection.where to my view?
+enhancement in collection.add regarding 'add' events sent when adding an array of models ...
+cannot call method 'each' of undefined
+backbone model fires â€œchangeâ€? event twice
+triggering same event, different callback function, fails when using object parameter and on()
+use collection#where for todolist#remaining
+issue with collection.set going more than one nested level down on parse
+allow multiple events per delegated trigger
+is backbone.model.prototype.url no longer a function (1.0.0) ?
+fix #2606 - collection#create success arguments.
+a new collection.refresh method to alias fetch({ reset: true })
+'change' event with attributes passed via constructor
+collection.create success handler no longer receives the raw ajax response
+view initialize in master version doesn't set "this.options" as it used to
+test to check that 'sort' event is triggered in lieu of a 'reorder' even...
+nested attribute selector
+ensure collection#get does not return a false negative during the change:attr event
+expose a backbone.object or backbone.baseobject to use as a base for our own object
+add partial validation support
+provide consistent x-csrf-token support for better backbone security
+resolve returned xhr(promise) with model.
+missing documentation on promises
+destroying a backbone model in a collection
+triggering the sort event now only depends on the sort variable
+problem of router#namedparam
+event memory leaking
+fetching model from api - id is not definded
+fix #2535 - update changelog with model#set changes.
+don't revalidate in collection#_preparemodel
+prevent initialize when instantiating temporary merge model
+history.navigate() breaks anchors (inner links) in opera
+document listento's implicit 'this' context.
+missing request method by sync events
+large collections reset/add cause "call stack exceed"
+add sync error event to model
+make backbone.router work on the server
+no events section by classes in the documentation
+propagate events of subviews
+options no longer accessible in views
+exposed wraperror as backbone.wraperror
+collection.fetch : url option is inconsistent in 0.9.2 and 1.0 ?
+while in model.set method
+added toggle method for backbone.model
+backbonejs fetches values only when we pass asyc:false as the parameter for fetch() method
+add a serialize method to model
+do not load the hash as a fallback.
+add 'valid' event (triggered when form goes from invalid to valid state)
+ie form elements under the same name as the variable name
+add repository field to package.json
+can not add a new model with an id equals to an existing cid in the collection
+check the parameters passed to events.listento and events.listentoonce m...
+inconsistent fragment coding across browsers
+fix #2538 - only transition if both pushstate and hashchange are requested.
+allow events object to bind to elements outside of views root element
+" this.$el.height() " always return 0. why ?
+error as a result of object.listento on a null/undefined 'other' is difficult to debug.
+add use of __super__ to documentation
+added 'remove' event when view is removed()
+adding bower.json
+listening to custom events by `namespace` does not work
+separate attributes mixin (#2526)
+how to contribute to docs?
+backbone mess up location.hash even if it's asked not to
+strange issue replacing object.on with object.listento
+sync event not being triggered on collection.sync
+fix for ignored {parse: false} on save
+update patch/xhr check so that ie9 works
+validationattr
+allow more than one route to be declared through router.route
+proxy underscore's _.result on models, views and collections
+views listen to the same model, both use contenteditable elements
+backbone.js adding result into the model
+backbone restful events with http method details
+backbone.js basicauth for ie 9
+cors sync sends options request instead of post
+ie7 checkurl race condition with url conversion
+lost input focus after view re-render
+added missing word to emulatehttp comment
+noredirect option for backbone.history
+suggestion about extend function
+can pass in a model for model#set
+model.set attrs is instance of model
+multiple fetch generating inconsistant behavior
+`collection#fetch` url option overrides `model#url`
+router: query parameters are being ignored when using pushstate but not when using hashchange.
+different behaviour haschanged between .9 and 1.0 version
+models instantiated during collection creation have faulty .url properties
+fetch/save error event
+model.get returns by reference
+add link to super class
+provide "state" mixin
+add option for view.remove() to delete inner content only
+can't bind listener to multiple event in event hash
+when hash has a single quote, firefox always sees current fragment and new fragment as different
+performance problem with off and stoplistening.
+modularized coffeescript-based backbone refactor
+rangeerror exception throw when many models are added to a collection
+event.stoplistening() should delete obj._listenerid
+automatically call view.remove() when view.el is removed from dom
+backbone is killing zurb foundation
+made history.route overwrite old routes
+reaching a backbone view from server side
+added jshint to look for potential bugs
+fetch(): first add event fired after collection has been fully populated
+discuss patch
+collection#set (and other methods) is not implementing non-ui-blocking iteration
+model.save() with options and no key/val
+add keepold option to view#delegateevents.
+documentation - success and error callbacks arguments need to be updated
+underscore as a parameter
+merge attributes.class and classname
+response of collection.fetch is inconsistent in 0.9.10 and 1.0.0
+need help ! backbone custom ajax call can't show the loading message
+trigger a 'set' event on collection.set
+collection firing 'change' event on added model
+[announcement] - hippo meetup event about javascript frameworks and libraries
+module.save() overwrites model data with passed options data
+additional checking for toadd
+not sorted order of 'add' event for sorted collections
+collection.add has different behavior for passing in array vs non-array
+unable to hold attributes in views
+add a "beforeroute" events on backbone.router
+add if statement and add passing test
+don't replace a "new" model with the persisted model when calling collection#set
+improve documentation
+add `difference` underscore.js method to backbone.collection
+providing a bare bones convention for nested views
+return a rejected promise instead of false on invalid model save
+introduce allchangedattributes to retrieve all changes since model initialisation
+change event triggered by another change event listener has both events' changed attributes
+route fragments that are numbers
+issue with collection.remove()
+multiple whitespace-separated callbacks in delegateevents for the view
+this.root undefined in line 1351
+collection set + merge test should disable merge
+add `extend` method to collection
+added support for setting default fetch data with backbone.collection.defaultdata
+implement dirty method on model
+adds white space to match coding style
+fix #2471 merging with defaults
+how is doc (index.html) created?
+pass all $.ajax options for fetch, save, and destroy
+allow router to be used server side
+pushstate navigation problem in same url?
+defaults are used when merging attributes during a collection.set
+_preparemodel method mutates options object
+allow history to execute all possible handlers
+support for a mongodb extended json
+cross site script vulnerability
+fetch options.success callback arguments changed in 1.0
+function execution order in model constructor
+what does this.view.delegateevents() in backbone
+default options in a more readable manner.
+dispense with view#options merging.
+fix #2458 - options are not attached to views.
+how to define a default option for all request-method
+saving model and collection options
+parse is not longer called on collection.reset
+model#fetch respects { parse: false } option
+return from backbone.history.navigate whether a route was matched.
+remove leftover attachable url documentation
+collection url not set on instantiation
+re-add lo-dash to the docs.
+collection mirrors all model events under the same name
+router.navigate should optionally fire also with same fragment
+fixed remove error in collection set method
+add support for passing an array of fields for patch option
+add support for specifying explicit patch fields in model.tojson
+validation not working.. it's still setting the invalid value to the model attribute
+documentation paragraph for a common misconception about routes with trailing slashes.
+missing comma in documentation
+collection#set isnâ€™t maintaining the input order
+model save callback for error
+inheritance performance improvements
+history.getfragment window.location.search option
+adding hide and show method to backbone view
+confusing documentation for .tojson()
+"reset" or "sync" collection event ?
+add backbone license url to package.json
+add backbone's license info to package.json
+help figure out inheritance
+fixed tiny typo in faq
+make tests pass with zepto
+drop zepto from the docs
+passing 'url' parameter to a collection's fetch method overrides the fetched models' url
+fixed documentation anchor for collection#fetch
+push and unshift are broken if the model already exists in the collection
+router.navigate doesn't update url hash on chrome for android.
+don't accept urlroot from model and url from collection
+how get response headers after ajax request??
+extract collection attachable properties
+fix #2422 - clarify docs about changed attributes.
+possible bug when setting an attribute of a model
+during merging, the new collection.set creates entire new models before checking for existence
+don't attach url if passed as an option in model
+cors domain issue since 1.0
+upgrade to backbone 1.0
+slice doesn't work correctly in firefox 3.6
+0.9.2 -> 1.0.0 upgrade issue: `url` passed to collection.fetch shadows `urlroot` on child models
+fix #2414 - error callback receives xhr.
+status code and error callbacks
+add backbone.class
+more minor typo fixes to docs
+lowercase instance var in example code
+removing invalid 'set' option in 'collection#fetch' docs
+backbone.model.validate via callback
+fixing documentation for collection#fetch
+collection.fetch docs need to be updated
+added "retinafied" favicon
+classname function not being called
+adds optional context argument to 'listento' and 'listentoonce'
+fix for #2392 - cleanup events on invalid or duplicate models
+support array, string or object in model#unset
+incorporate design goal of backbone.js on home page
+consolidating references to silenced events
+error callback doc fix
+fix typo in collection.set example
+update collection#fetch's doc to refer to collection#set
+docs: new method collection.set() example "typo"
+no need for model::changed
+router seems to call the wrong function when using the browser back/forward buttons
+use empty route name for anonymous routes.
+stoplistening() did't work as expect
+attaching url and urlroot on the model if passed
+collection url should be dominant for collection.create()
+removing duplicate error and more version checks for localstorage
+adding options.validationerror
+backbone.history is very difficult to write tests for
+adding custom constructor example code.
+the "request" event is after .ajax
+add backbone.events getcallbackscount() or hascallbacks()
+browser compatibility and optional parameters in routes
+validate not work
+fixing broken comparator test in ie8
+add ability to pass a few callbacks to listento
+something to note about backbone.history.navigate
+fix #2376 - update docs for changedattributes.
+don't trigger the request event if the request is cancelled?
+changedattributes can unexpectedly return false
+allow extending router.routes by accepting a function
+model.changed and model.changedattributes do not work as advertised.
+nested attributes don't get cloned correctly with model.tojson
+trouble upgrading from 0.9.2 to 0.9.10
+rename _bindroutes to bindroutes, making it public. pass bindroutes a routemap param to decouple it from this.routes.
+backbone model save force object refresh with server response
+make ._bindroutes a public method that takes a routes map as an attribute.
+feature - change `model.set()` to perform both additions and removal of model attributes, remove `unset()`
+.save changes model attributes before validate.
+move collection#sortedindex definition
+there is no 'change' event on 'collections'
+bad link in index.html
+model object in save callback isn't a model?
+allow array of event handlers in view#delegateevents.
+cleanup todo example
+issue #2208 add last synced state to model
+model.save and patch attributes
+add the ability to remove attributes on models when syncing
+narrative regarding backbone.history does not appear to be accurate
+add coffee and docco versions to package.json.
+validation fails
+copy url from options in the collection constructor
+don't trigger validate in 0.9.10
+can't save sublime text 2. keep getting error 2? help!?
+delete request does not send when passing the 'data' option to ajaxsetup
+add documentation about collections containing polymorphic models. fixes...
+delegating events on inherited views
+update api
+underscore documentation anchors
+create a 1.0 milestone
+.save() should return a rejected promise object for an invalid model
+collection.create saves model even if collection.add fails
+why didn't call `model.stoplistenting()` in `collection._removereference` when remove a model?
+backbone assumes that backbone.ajax will be asynchronous.
+clean view for a collection
+proposal to improve collection.model documentation
+addandreturn method for collection
+set model property in context. fire event in context.
+comment has outdated text
+unmatched routes firing even there's matched route when backbone first load
+problem with collection add where merge:true
+handling nested models and collections
+collection.omit (or similar)
+add composer support
+backbone: subviews, default â€œdivâ€? wrapper, and delegated events
+model change events
+decoupling backbone.router and backbone.history
+original state of a model
+simple spelling mistake "overriden"
+changelog in master since 0.9.10
+do not undelegate previous events
+attribute "id" set in json response but not always set in collection's models
+backbone don't work ascii chrome 25.0.1364.99
+removing arguments from model/collection sync
+document master as the target branch for pull requests.
+improve travis-ci badge rendering in docs
+rewrite into coffeescript
+a possibility to override attribute assignment in model#set
+complex model fields are returned by reference by `tojson`
+a hook to provide names for child items (useful for debugging)
+model.change removed from 0.9.10?
+consistent returns from all branches of the eventsapi method
+assignment of window.location to variable (loc) flagged as xss vulnerability
+how to send data to java actions in backbone
+router reload
+guard against undefined options in model#_validate
+collection.destroy() with a range
+maybe a bug in model.get(), model.set() - maybe intention
+in tests, i tweaked model.parse(opt) to be model.parse(attrs) for descriptiveness
+_.bindall in backbonecollection causes error: uncaught typeerror: cannot read property 'idattribute' of undefined
+error at previous attributes when you do some sets in the same model.
+error at model.changedattibutes, because is cleaning change in each set.
+bind _ (underscore.js lib) to backbone so it can be set/parsed like $
+feat ie8 support
+fix #2297: allow model.get to get multiple attributes
+allowing model.get to return multiple attributes
+error at collection.get with a model with id = 0.
+model.save({ ... }, { wait: true }) doesn't work with jquery 1.9.1
+fixed typo in documentation
+"off(null, null, context)" doesn't work as expected (fix proposed)
+.extend() only works once
+a puzzle of listento method
+character encoding on hash for firefox
+the passed options.error is not triggered if the model is invalid
+standard web application
+add event fired multiple times on collection
+fire 'invalid' callback when _validate fails
+add play tv in examples
+add changelog entries for 'invalid' event
+add options.parse to the model constructor documentation
+fixed to pass with edge version of underscore
+add missing 0.9.10 change log for backbone.sync success callback arguments
+fix model#isvalid
+add .jshintrc
+update qunit, phantomjs.
+shouldn't .get() return a copy of the attributes data?
+using listento() and _.bindall() causes memory leaks
+detect full page load vs navigation/route event
+fixed comment for model#_validate
+parameter 'invalid' in options when using collection.create
+collection.create not passing model attributes to validate correctly
+validation bug
+fixed edge-version incompatibility
+collection does not get garbage collected
+collection.update leads to a large number of `add` and `remove` events
+use update internally in collection#add
+added array in the add event callback for collection
+model.clone() overwrites null attributes if default attribute value exists
+fix bug with `add(models, {parse: true, merge: true}`
+refactor `update` to reduce wasted lookups
+question on rest server, curl, and backbne.js
+collection::parse not supported when initializing a collection
+options.parse is missing in the documentation
+breaking codebase into smaller modules ?
+no option for parsing data when initializing a model
+extend router.routes rather than overwriting
+add test for #2253
+stoplistening(null, name, ..) leaks event listeners
+does model.save(.., options) assume {validate:false}?
+update `parse`s at model level, simpler `get`
+check for alternative english spelling of "initialise"
+new model created unnecessarily before merging attrs into existing model
+model.save 202 status code = error?
+fix `backbone.collection.get` so it copes better with some edge-cases
+make $(e.currenttarget) default ?
+disabled replace option in backbone.history for android webkit browsers
+can i add a link to japanese google group to index.html?
+route with backslashes not working
+comparator not respected in safari 6
+model.save(null, {success: callback_function} not working properly, calling error instead
+add a listen hash analogous to events
+define routes with anonymous functions
+documentation for collection#slice
+collections should maintain order when a model changes.
+bugfix to tests for backbone.collection underscore methods.
+allow to add to collection models with custom constructor
+allow model#get to accept multiple arguments
+allow method name instead of callback in `.listento[once]`
+different meanings for 'model' property in view and collection
+sync event firing
+findwhere() method not available on collections
+is set supposed clear changed?
+add updateall function to collection
+'fetch' can't be bound to a 'change' event
+backbone.model clear use default attributes
+model: any altered default values are reverted when model.fetch() is called
+a view's default options are not merged into the options passed to the initialize method.
+making error/success handlers promise compatible
+collection#create returns result from model#save
+lowercase books in docs
+model#destroy success callback fails on jquery-1.9.0
+garbage collector will collection backbone.history.location in android , when go anthor page and use browser's backã€‚
+allowing for routing functions to be passed to the 'routes' property of backbone.router
+clarified collection.create documentation
+can't stop backbone event
+configurable index attribute inside collections for polymorphic models
+uncaught typeerror: object [object window] has no method '_configure'
+backbone rendering
+0.9.9+ no longer passes in options.index to an 'add' event handler for a collection
+removing last event callback (with off) leaves key in _events
+model - add ._savedattributes property and revert() function to rollback model to last-synced version
+add a view "remove" event
+docs state models trigger 'invalid' event when validation fails, but 'error' event is triggered
+0.9.10 save validation failure not calling error callback
+update backbone.localstorage
+jsdoc support for better code completion in ides (especially, in phpstorm)
+minor code terseifying and test padding
+the "options" params is not used in tojson
+add support for async event handlers
+trigger calls unbinded event handlers
+0.9.10 model.set('img', new image()) crashes
+code refactoring
+comparator and fat arrow
+if model.parse method return false then no model created!
+collection.fetch({update: true}) not working and bypassing parse?
+support for callback contexts
+improve consistency: get rid of "a zealous early error breaking apps in inconvenient ways"
+collection.get(model) uses _byid[model.id] however id may be added after...
+model#validate example in documentation does not work as written
+return "this" reference
+collection and model fetching/saving etc status
+throw an error if the callback parameter is missing in events.prototype.on and events.prototype.once
+updated documentation for model.changed
+add remote events for views
+add event priority
+tokenization namespace
+options.context not being passed to success function in backbone.sync
+changed the year from 2012 to 2013.
+collection.get with id and cid for a model which has id not set
+backbone 0.9.10 view incorrectly inherits variable data when passed into initialize function
+reverting changes from #2003 and 1f3f45252f
+documenting validationerror
+add deep comparison support for collection#where
+router tests fail with zepto
+window.location.replace not working in android browsers
+remove method probably should reset el and $el elements in the view
+add init events
+fix document for `model#validate`
+support for suppressing the x-http-method-override
+rethink event api change of 0.9.9 (listento)
+collections and models should call oneventname function
+success callback should be called for all 200 series http codes
+regression from changing success callback parameters.
+weird behavior when model.save if option.validate is not set
+previousattributes retains the previous value outside the change handler - behavior change in v0.9.10
+update recommendation in documentation on bootstrapping to follow owasp guidelines for preventing xss attacks on web applications.
+update recommendation on bootstrapping to follow owasp guidelines for preventing xss attacks on web applications.
+error in _validate
+callback for space delimited events triggering multiple times
+0.9.10 does not call 'error' callback in model#save on validation error
+failed validation does not trigger error callback
+http patch method not supported in ie8
+why use this code style `this.initialize.apply(this, arguments);` instead `this.initialize(arguments);`
+optional route (/:route) makes entire route fail
+why you remove change method from 0.9.10?
+pass along ajax details in `sync`
+documentation fix: art.sy
+pass errortype to error callback.
+adding a 'fallback' argument to model#get
+include source maps for backbone
+model remains changed after fetch from server
+getting uncaught typeerror: object #<object> has no method 'reset'
+0.9.9 model events are not propagated to all collections listening for them
+remove old `bind`/`unbind` aliases
+bumping to 0.9.10
+fix #2134 - clarify purpose of tojson in documentation.
+bail from listento early.
+fix for #2100
+recursive change event
+view has options prop but model and collection don't
+small issue in _computechanges model method
+fixed a minor bug in examples/todos/todos.js
+clarify collection request/sync event behavior
+strip fragment's search params before route matching in loadurl
+router does not set this.options
+validation during save doesn't provide access to the returned errors.
+errorneous message
+strip search parameters from fragments.
+the logic of model "change" events has been changed in 0.9.9?
+model change event doesn't provide options attribute
+collection._byid is not updated after success of create(m, {silent:true})
+refactored 'model.save'
+removed 'key == null' comparison from 'if' in 'model.save'
+removes dead link from docs
+remove silent option from model#set.
+issue number in comments.
+add links to old versions of backbone.js documentation
+bumping the release
+attaching idattribute, defaults, urlroot, url, collection if passed
+consistently turn on `parse` flag in `save`, like `fetch` already does
+removed unused variable 'model' from 'save' function
+faster collection _reset
+suggestion: in model.set and/or model.save - call model.parse() or something equivalent?
+add reset collection memory and merge tests
+model.set('a','b') twice makes changedattributes() false
+fix #2099 - sortedindex use model attributes for string iterator
+more explicit listing of `options`
+explicit message on listento callback lack
+collection.sortedindex should wrap the iterator arg if it is a single string
+use `update` for `reset` internally
+add underscore aliases for collection methods
+fix #2095 - `update` works with model-level `parse`
+fetch uses 'parse' on both collection & model, when using {update: true}, it doesn't use parse at the right time
+uncaught typeerror: cannot read property 'update' of undefined
+should _computechanges use !_.isequal() instead of simply !== for array/object?
+edge change log in documentation
+bug: collection.get throws error
+collection.update problem with merging models
+model id no longer settable via attributes hash
+switch to british english.
+`route` event now fired by router and history
+fix #2068 - `set` respects input order in absence of comparator
+partial update
+use `update` as default `fetch` method
+add underscore methods (map, keys, values) to models
+update test-zepto.html to match the newer test html for jquery.
+_.bindall(this) ruins collection.model?
+add an escape option to model#tojson
+collection fetch does not render on "add" event
+okay to use the styling/layout of backbone's docs for backbone-relational?
+change 'events' argument name to 'name' in #off doc
+backbone history possible bug on a page with querystring
+"change" event will not trigger when an earlier handler calls set on an attribute attempting to set it to its existing value
+test case for cid order when adding model hashes
+stack overflow in ios 6 relating to linked lists callbacks 0.9.2
+potential security thing for hashes
+when upgrade to 0.99, the console report an error: "_.pick is not a function"
+some options values are automatically copied over to a object
+why don't update position of model in collection when using collection.update?
+reset called on empty collection throws error.
+problem with nested external templates
+use `tojson` in model `clone` to take advantage of nested model and collection
+triggering invalid event instead of an error event (validation)
+fix #2061 - add `update` event
+add generic route event
+trigger events#update on collection.update
+clarifying/correcting docs about view#remove
+various code readability ideas
+exit early in collection#create
+add {silent: true} option to model.url() to surpress error
+make events#listento implicitly listen to this if no object is specified
+documentation for model#save is misleading as it comes to error handler
+allow `this.el` to be a node array
+add ispopulated and shouldfetch methods
+make view options (or arguments) available to all methods called by _ensureelement()
+add backbone.wraperror and backbone.wrapsuccess methods
+add listento yourself and cleaning with stoplistening test
+add events#listentoonce
+back to the original {add:true} on fetch
+removed reference to model.change from docs
+0.99 caching updated js files
+make remove() auto-cleanup more events?
+events.once don't properly remove themselves
+backbone polymorphism does not support two models with same id
+adding where() filter with tojson() causes error
+removing view.make
+add underscore methods to models
+removed one if statement from model.set to simplify #2038
+nested silent changes should not trigger change events
+unset multiple model attributes at once
+properly setting object properties and array elements on models
+increment this._pending for each change. possibly fixes issue #2034 (if it is an issue)
+number of change events fired possibly inconsistent
+forgot to import _.drop?
+backbone.js facebook api direction required
+unable to override sync error behavior in 0.9.9
+validate method doesn't raise events when invalid value is set back to original value.
+view#make returns $el for direct use by view#setelement.
+updated view#make to use backbone.$ exclusively
+throw type errors in backbone.events early.
+history#getfragment should contain query parameters
+using backbone view in node
+fix for #2017 - check for object on save set
+routing with query string stopped to work in v0.9.9
+changed the model's set function so that the 'nested' variable isn't req...
+minor typo in the docs
+case insensitive id?
+removing context from listento/stoplistening
+restoring simple change method
+http status code 204 no content
+add possibility to manipulate input values before setting an attribute
+issue with listento/stoplistening and context
+decode named route parameters.
+ability to use `model.parse()` during all data-setting operations?
+bumping jquery to 1.7+
+charset problem with safari und chrome
+fix #1305 - decode escaped unicode characters in `location.hash`.
+fetch with update: true behaves like fetch with add: true in 0.9.2
+fetch add calls require additional parameters under 0.9.9
+new view(string) returns error after upgraded to 0.9.9 from 0.9.2
+use typeof in `sort`, http://jsperf.com/isstring-vs-typeof-string/2
+fix #2003 - success callback arguments.
+adding test for change event only firing if setting an object with a different value
+backbone.sync: inconsistent arguments to `options.success` and `options.error`
+fix #1980 - named and optional params.
+ensure tojson receives the correct attributes.
+validate never runs during set method of model
+shouldn't `listento` also `bind` the listener to the context?
+ensure that, on a collection, fetch calls update if only {add: true} option is passed, instead of calling reset.
+optimize `add`
+only sort when a model is changed or added
+use boolean for `nested`.
+add test for once without callback.
+fix #1987 - be consistent when passing options to trigger callbacks
+save firing "sync" in view when "silent : true"
+add test for #1989
+added undelegateevents to view::remove and created view::empty
+changelog is not correct
+optimized backbone.view methods: delegateevents and undelegateevents
+options could be undefined in collection.add
+added test to show listento called on the same object
+setting models attributes is not checking if new and current value differ correctly
+new model with attributes loses it's attributes upon saving (0.9.9)
+fixes #1982. haschanged() should return false after change()
+haschanged() returns true after change() is called.
+save with attributes
+route syntax for optional parts too fragile
+inconsistencies persist in documentation in backbone.js
+confusing documentation for url and urlroot
+collection.add() when merging, and this.model has defaults, current values are overwritten
+this.collection.on('fetch', methodname, this); is no longer working
+correcting upgrade guide for collection.fetch({add: true})
+code coverage suggestion
+give events on global backbone object for tracking saving/deleting
+add validate flag to trigger validation of models, default to true on save
+added a note about backbone.wraperror to the 0.9.9 changelog
+collection.add(): trigger `merge` event on model when called with {merge: true}
+fix typo in .npmignore
+string comparator starts with '-' means descending order
+listento with events hash?
+0.9.9 changelog does not indicate removal of wraperror function
+fixing #1964 - change event should be fired if a change occurs
+model change events swallowed with self-referential change handlers
+fix #1961- pass options to initial set call
+trigger `sort` after `add`s for efficient reordering
+model instantiation fails silently when invalid attributes are passed to the constructor (0.9.9.)
+new patch option behavior doesn't match previous save() behaviors
+partial set method for model
+fix #1954 backbone.connect for global event bindings
+fixing docs on validate
+fix #1925, document for {sort:false}
+improve getting of models with non-default ids
+add context as 4th parameter to listento and stoplistening methods on backbone.events
+event "request" is missing
+getbycid no longer available
+fix #1939 - `parse` receives `options`
+when running in node, backbone is currently unable to load jquery, zepto, ender
+collection 'add' event handlers no longer receive options.index
+default constructor should return parent value
+listento - can't specify context for the callback
+document `route` event of backbone.history
+fix #1943 - use _.isequal to check model change
+calculating changed attributes is very backwards incompatible!
+backbone.view and rendering tree
+fix typo in update changelog bullet
+document view#id and view#classname as functions
+parse() no longer passes xhr object
+properly document changes to "sync" and "error" events
+annotated source issues on chrome
+removing line about silent:true delaying validation
+listento on jquery objects?
+different event firing behavior after silent model changes
+using 'listento' instead of 'on' in todos example app
+model constructor now triggers validation before initialize is called
+document backbone now mixes in events
+silent mode does not work any more for model.set validation
+in the 0.9.9 changelog, what does "the parse function is now always run if defined" mean
+`request` event not documented
+backbone.sync now requires an actual model to be sent
+add changelog note about deprecated setdomlibrary
+document options.sort in collection#add
+document `collection#fetch({update:true})`
+listento, stoplistening discussion
+v0.9.9's removal of `getbycid` is a b/c break that was not documented in changelog or documentation
+fix #1915 - `parse` ordering in `update`
+model with defaults, overriding defaults at model construction broken.
+pretty photo and drop down menu will not run together???
+failing unit tests with 'defaults'
+cache context, avoid switch in loop, profit
+parse change from #1912 introduces flow bug, not parsing response beforehand
+recent change to escaped attributes is causing downstream errors.
+assigning model defaults uses _.extend instead of _.defaults
+collection fetch parses twice
+bump underscore to 1.4.3 in package.json and index.html
+add router.previous to retrieve/trigger previous route
+squeezing out the last bit of `trigger` optimization
+expose methodmap (use put for patch requests)
+fixing issue in patch not sending data
+the site backbone.js version is missing validation in save()
+simplify/robustify `update`
+strange behavior of collection.add() / remove()
+add view#listening
+jquery is being shadowed
+add clone() now clones with constructor options
+dispose intention
+shave some bytes with an array literal
+#1894 `sort` option for `add`
+create should not trigger a sort either
+fix #1894, collection#push should not sort.
+fix for #1894 item 1
+performance problems with collection#sort automatically
+add failing test case for different `idattribute` fields
+collection#get respects model `idattribute`
+revamp events alternative
+implement once with minimal change to other events methods.
+backbone extends events
+mixin events to the backbone module
+investigate just using jquery events.
+replace undefined with void 0 at router's test
+change log for upcoming release
+backbone.view's setelement is not updating the id and classname
+problem with ie8 and sorted models in collection detected in version 0.9.2
+appropriate form for calling submethods on a model
+refactor events tests
+test off during iteration with once.
+simplify simplified `once`, fix global leak
+can't access newly added models to collection when using fetch({add: true})
+adding a travis icon to the readme
+'application/json' vs 'application/json; charset=utf-8'
+how to push search to history
+collection#update to reduce waste
+need to be able to define if we want updates from the server on .save()
+allow options.data to be set to null for no data.
+proposed fix for #1477
+"cannot read property 'tagname' of null" on android 4.0.4
+add component.json for bower support
+suggest json 3 as an alternative to `json2.js`
+name the constructor functions
+feature request: analogue of model.isnew for collections
+router.navigate won't trigger if the url is the same as the current one even when overridden
+elements / ui hash for backbone?
+backbone.events should really be part of underscore
+backbone fragment in pushstate behavior straight
+an utility to filter collection on the fly according to different search keywords
+backbonejs.org license
+document `silent` options for fetch
+add collection#update to better use collection events
+only sort on `add` when it make sense
+fix for #1407 consistent 'parse' on collection constructor & reset
+noglobals check mandatory for browser qunit and npm runner
+use noglobals in `npm test`.
+fix global `i` leak in `change`
+don't cache model#escape
+add a `.npmignore` file to prevent useless stuff from getting in the npm distro
+declaring variables in template replaces model properties with the same name
+allow view.options to be provided as a function
+collection create doesn't trigger error if {wait: true}
+script errors if collection changes during add
+inconsistent parsing on model.fetch and collection.fetch
+create returns false on failed validation
+proposal: consistent instances of the same model object
+allow unsetting an array of attributes.
+ios 6 caching issue
+pass options through to tojson
+minor clean up
+removed a redundant sentence.
+fix gh-1201 - simple travisci support.
+typo in "why use backbone..." section
+map route parameters to correct function parameter names
+docs: fix images being stretched on mobile.
+api for forwarding events
+wondering if underscore should be included in package.json
+save success callback does not receieve options.
+array of ids to collection
+fetchmodel - an api for lazy loading models from persisted collections
+allowing events to be passed in view's options
+collection.add does nothing if a duplicate exists, and it's undocumented.
+server-side generated content and routing
+super access for javascript programmers
+enable deep cloning when using nested models
+question about instantiating backbone view
+routestripper now properly escapes routes
+multiple var declarations per function (method)
+ie7 (and ie7 compatibility mode) permission denied issue
+set function not behaving as per documentation
+improve the backbone inheritance chain
+backbone.js routes not always being saved to history
+parse() don't work
+undertanding model - first backbone/mvc project question
+option to update duplicates in collection.add [feature]
+backbone.history.start: root param not working with pushstate: true
+"self = this" and internet explorer
+pass `options.attributes` through during save
+debugability implemented -with tests.
+best practice to skip model validation on fetch
+fix #1801 - add documentation for disabling hash based routing.
+load dom library only in a browser environment.
+routers, pushstate, and server-side content
+don't unnecessarily call _preparemodel in unshift
+fix #1798 correct model#fetch documentation
+document problem with fetch
+validation method renaming.
+strip trailing space in fragments.
+trailing spaces in search query cause route to be fired twice
+fix #1791 reorder constructor so `attributes` is defined for `parse`
+error when accessing model attributes in parse
+improve the way _ and $ are imported from global scope
+can't import _ or $ from global scope when root === exports
+remove minified file from master branch.
+updating documentation for collection#reset method signature (fixes #1785)
+bump underscore version to 1.3.3 in package.json
+collection.reset() documentation is wrong
+update package.json with more relevant keywords
+model.get/model.has behaviour with certain (javascript implementation defined) attribute names.
+collection.fetch() documentation update.
+binding view states and routes
+rename viewoptions.collection
+infinite redirect loop in old browsers
+trigger event on attaching view to dom
+optionally namespace data in backbone.sync
+separate silent and wait options for set
+enhanced deferreds; issue #1774
+provide backbone model/collection as first parameter to jquery deferred callbacks
+further simplify router#_bindroutes.
+strip root (if root !== '/') from fragment and allow navigate('/root/x')
+minimalistic validation framework
+extension points for attribute setter
+add a more meaningfull test for parsing by default.
+optionally allow set() to accept an invalid value
+removes useless line
+refactor `set` to avoid unnecessary `arguments` object creation
+naming convention (collections model)
+initialize() / constructor() documentation
+model "has-a" collection as attribute
+use _.pick to simplify view#_configure
+update outdated comments
+question: backbone & testing & angular
+preserve globally set beforesend
+be sure to return the value of `beforesend`
+preserve user provided beforesend.
+call 'beforesend' function set with $.ajaxsetup when backbone.emulatehtt...
+make the root object "global" instead of "module.exports" when running as a node module
+avoid triggering a sort in some cases
+question - routing + url rewrite in ie
+{merge: true} option for collection::reset
+incorrect comment about global scope under node
+better document view constructor's handling of options
+documentation should explain that view constructor extends this.options with the options argument
+collection.get problem with custom idattribute
+assynchronous backbone routing, problem
+chaning model's value inside callback for its own 'change' event
+add selector context to view.$
+input model passed to backbone.model#set shouldn't be cleared.
+fixed inconsistency and typo in docs
+add `extend` to backbone.history.
+question - retrieving model by attribute
+minor optimization to router#_bindroutes.
+can't fetch a model from a collection when idattribute is set
+bug: incorrect values in _previousattributes when setting silently
+fix for #1735 - consistently use attrs in model constructor
+bug in models
+"beforeremove" event for view to be able to remove sub views
+added in jamjs configuration
+add lo-dash reference to index.html.
+fix #1729 - clarify expected arguments for get/getbycid.
+collection.get assumes that idattribute is 'id'
+question - assign index to models on instantiation
+model.fetch() does not remove attributes no longer found in model
+predictable `change` events for `backbone.collection#add`
+updated blossom.io screenshot
+ie8 native empty input fields send null to server
+fixing a typo in the bitbucket example blurb
+.fetch({add: true}) attaching phantom object into collection
+docs page links to 404 on to-do example
+question: raw response from server
+issues with models.py
+stop backbone throwing an error when an invalid model is added
+node modules in the browser (adds only 398 bytes)
+by reference inheritance
+check if model/collection support .off when disposing of the view
+refactoring set/change for speed improvements & bug fix.
+no way to modify collection arguments
+change event not triggering properly when model attribute is changed within an event handler
+reverse method for collection
+changes for a storage/unique model list implementation
+provide archived documentation
+model#get() as alias of tojson()
+set a collection's url on instantiation
+overhauling set/change - adding major speed improvements, and `stealth` option.
+can't pass "data-" attributes within view's attributes method
+alternative to events: { "trigger select" : "functor" }?
+unbind from topic when processing this topic
+backbone.sync - overriding partially?
+"off" stops propagation of events from model to collection
+have the documentation hide the left bar rather than over text over text
+fix #1695 - ignore location.search during pushstate transition.
+backbone.history.start's atroot var is incorrectly set to false if there is a location.search present
+silent set in a change:attr handler is commited by a parallel one
+allow view.el to be provided as a function.
+fix #1684 - correct regression in refactoring extend.
+consistently handle `undefined` being passed to the model constr (#1545)
+concerned about model security?
+issues with django facebook connect
+refactoring change & set, fixing #1478 and #1664
+any way to bind to a collection that is a nested property?
+checking that model.trigger is a function to make backbone.sync more flexible
+replace rakefile with grunt.js
+view.initialize() not called in mobile safari for ios 4
+allow http verbs to be specified for sync
+adding support regular expression in method 'where' of collection.
+enable ie8 to load a static page
+multiple backbone file
+$.bind and $.delegate are deprecated in zepto
+router interface relies on javascript implementation defined behaviour
+xss in todos example
+how to cache event hash selectors
+fix #1478 #1664 revamp set and change methods
+remove dead code.
+pull request for issue 1672 regarding history query string inconsistencies
+inconsistent handling of query strings in push state
+the docs are ambiguous about the "add" event.
+calling this.change() does nothing
+fix namespace reference in the todos example app docs.
+fix #1604 - refactor add, remove index option.
+model only triggers change event for unique values?
+model default attribute changed when set
+change:attribute on unchanged attribute [philosophic]
+update model.validate documentation
+problems understanding/using model.save()
+rest, post and location header
+model with children collections of itself
+fix #1653 - ensure that `history` can be used outside of the browser.
+discussion: bindings for backbone
+fix #1655 - sortby & groupby use attributes.
+underscore functions on collections with string attribute parameters not working
+method chainability is not very obvious
+fallback root.location and root.history to window
+modifying a collection while iterating over it : need a little explanation please
+hashtag urls on non-pushstate browsers should only be generated if a route exists
+fix #1649 - set location.hash with a leading #.
+history._updatehash not cross-browser friendly
+is possible extend from extended view?
+updated collection.fetch() documentation to reference optional {silent: true} for 'reset' event suppression
+event triggered on model also fired on collection
+cloning keeps id attribute intact -> strange results when saving
+refactor reset/sort.
+annotated source code has typo
+fixes #1638 and #1604 - account for order change in `add`
+added `sort` as `set` option
+_byid is not updated when saving with silent: true
+should setelement replace the element in the dom with the new element?
+resorting collection on add event causes duplicate add events to be fired
+travisci integration.
+added 'include' allow for mixin functionality
+model.get, collection.where changes to facilitate data management
+added fallback on model.get()
+unroute method
+view.unbind() ?
+allow an individual router to be stopped
+refactor test/view.js
+remove unnecessary `frag` variable.
+backbone.sync - remove params in favor of options
+drop doubled test prefixes.
+the history root option is not respected.
+router: query string gets ignored with pushstate.
+add test for transition to hashchange.
+documentation for `model.url()` is inaccurate
+fixes #1604 - account for model removal during add.
+fix navigation when root is empty
+"pushstate/replacestate takes a relative url" patch broke navigation when root is empty
+fix #1478 - attribute changes to original value should be silent.
+docs: in javascript -> client-side
+remove options parameter from #tojson
+#create + backbone-localstorage
+update extend comment
+[docs] alphabetize
+allow for chaining of router navigation
+avoid creation of extra array in collection proxy.
+test/{test.html -> index.html}
+api concern
+correct view.render() template example
+getvalue -> _.result
+a way to make collection persistent
+error caused by collection.add when collection is changing
+consolidate test boilerplate; use consistent names.
+model.get returns a clone of the requested attribute, not its reference
+model.get should return a clone of the requested attribute, not its reference
+custom indexes on a collection
+consolidate sync/error events in backbone.sync.
+backbone custom builds
+make getvalue public
+update examples/todos/todos.js
+adding validateall feature to backbone.model during set or save
+time for a new version? 0.10?
+collection url can be implied from model's `urlroot`
+add model#dispose & collection#dispose.
+eliminate the boiler plate code in render
+refactor extend.
+how can i reference callbacks?
+allow model attribute name to be used as collection sort comparator value
+_.bindall(this, 'render'), etc.
+fix #1584 - create default backbone.history.
+[request] better error message for history.start
+use the actual contructor
+view#remove fires `remove` event
+validation occurs for all attributes on set({singleattr:'newval'})
+ignore query strings when matching routes, fixes #891
+add check for jsl in `rakefile`
+views with multiple models/collections
+reusing an options object to subsequent calls of collection.fetch({add:true}) results in erroneous options.success callbacks
+binding model.save() to the 'change' event causes the change event to be raised twice
+needs documentation: model/collection event callback arguments
+added ugly url support
+[feature] make collection#filtercollection return a collection instance
+use inherits helper directly
+history.start shouldn't convert to fragment if silent
+[style] coll -> collection
+call ajax success and error callbacks on 'this', the jquery context object
+add deferred request to models or collections for race condutions
+collection within a model not updating changes after save
+change:column is not handled well after a clear()
+feature request: collections.refresh()
+collection.fetch returns empty collection with sync() override
+fix for bug #1478, unexpected change events when silent:true
+compliant commonjs/nodejs module
+ensure that collection proxies underscore aliases.
+removed useless code
+added support for composite keys as the `idattribute`
+initializing collection from raw data doesn't pass it through parse method
+adding highlighting of current navigation items in the view
+add underscore's 'tail' to collection
+docs state underscorejs is not xss sanitized
+patch dispose to be more accurate and cause less breakage in existing app...
+delegate event in view does not return original event
+don't discard return value of default constructors. (with tests)
+change $(this.el) into this.$el
+proxy events
+combine hash routing with pushstate
+.destroy() on a model does not trigger "destroy" event on a collection.
+ensure defaults are passed to backbone.model.initialize.
+.tojson doesn't traverse the entire tree and collection in a model can't be accessed properly
+request module seems to affect backbone (and underscore) behavior in v0.8
+can not set model sub attributes
+allow history and router to be used on node.js
+persistent dom xss found
+new model extension point: idfromattributes
+command+click or ctrl+click to open a new tab
+document view's tagname, id and classname
+why is there no "create" event to differentiate between a sync create and a sync update
+unused parameter in tojson method
+fix case where model.save(model, {wait:true}) does not correctly merge 'serverattrs' with the 'model.attributes'
+model.save(model,{wait:true}) fails to merge serverattrs correctly
+added digital pigeon to the examples list
+empty backbone.model object returned
+backbone custom interactions
+tagname for definition list?
+fixes issue 1527 related to event exceptions
+exceptions thrown by event listeners stops successive events from being triggered
+ie8, events .off is broken if using named function
+changed _.isequal and _.has to native methods
+array support for conditions in `where`
+fix _idattribute bug in collection.where and collection.pluck
+shouldn't collection#add always reference collection on the model?
+why are models ignorant of a collections reset event?
+getvalue for view::classname and view::id
+update khan academy blurb and screenshot
+don't include everything into the npm package.
+[enhancement] improved backbone inheritance
+model.on("change:key", ...) never fires.
+store model array-attributes in a backbone.collection
+model.change() does not call validate
+i got a complicated issue...
+fix #1511 - add a comment explaining performance concerns in `trigger`.
+use array.slice() method for slicing arguments inside events.trigger()
+introduced destroy-method and attachable child-views; "outitialize" as opposite of initialize to unbind from custom events when view is destroyed.
+added optional groups to route syntax, with tests
+optional parameters and splats in routes
+easier attaching of model events in a view
+backbone.js to regulated for its own good?
+when root option omits traling slash, backbone.history.navigate and backbone.history.start set url with a slash between the root and route fragment when using pushstate
+make the 'eventsplitter' public
+adding wordpress.com as an example app
+what browsers are you supporting?
+[enhancement] history.navigate support for stateobj
+saving unchanged model does not call the success callback
+fix #1494 - clarify documentation for `off`.
+remove a conditional that prevents (re)navigating to the current fragment
+create and add have inconsistent return values
+bug: attributes inherited from object.prototype
+bug/documentation issue with event#off
+consistent use of `===` and `void 0`.
+put short if statements on one line and add some whitespace
+view.remove() causes an uncaught rangeerror: maximum call stack size exceeded error
+fix #1377 - saving without attrs triggers "error".
+attributes that are prefixed with _ should be synced with localstorage instead of being sent to the server
+reduced the extend function to a single return
+removed redundant extend
+extend issue in chrome 22.0.1201.0 dev-m
+update todo example
+make backbone.view.make 4xfaster
+why do parse happens before initialize ?
+documentation overhaul
+extended classes reference the same object from the extended class.
+no method '_bindroutes' in chrome 22.0.1201.0 dev
+unexpected change events when save with {wait:true}
+collection.reset will never run validate()
+fetch() should allow optional url parameters to be passed
+uncaught typeerror in google chrome 22.0.1201.0 canary
+backbone.router.initialize should be called *before* route callbacks are...
+trigger "error" unconditionally.
+fixed unscoped selection in todo example appview.initialize
+collection.fetch() fires 'reset' rather then 'fetch' (docs issue)
+an attribute("doms") for backbone.view
+add custom "fetch" events on models and collections
+use custom `isequal` on models.
+documentation question
+backbone.events.onmany - only trigger callback once all child events have triggered at least once.
+router: support adding a catch-all '*' route
+router.route() adds routes in the wrong order
+an argument for `_configure`
+add view#dispose.
+*default route takes precedence over routes defined before it
+fix #1455 - warn that attribute names should not contain spaces.
+added lifetime events to model, collection, router, view
+add an isolatedvalidation option for the _validate method.
+bind multiple event-callback pairs in one "backbone.events.on" call
+wrong change events for space-containing field names
+rename view#destroy to dispose, add it to models and collections.
+require js config works with nodejs but not with rhino
+models initialized with .create() are made before server attributes are set
+question: why is parse called on model instances after a collection has fetched data from the server?
+route & page reload on ie
+replace in in collection.add
+move sort after merge
+.create() never adds new model to collection when wait:true
+add _configure to model, collection and router for easier augmenting
+isvalid takes "options" param and passes through to validate
+fix a few typos in documentation, and note that rails >= 3.1 doesn't namespace to_json
+more consistent collection options
+adding attributes to collections?
+question: change event on nested models
+fix #1433 - do not save invalid models.
+add functionality for passing success/error callback hash exclusively for model.save().
+model.validate failing to stop model.save() from saving to server
+trigger lifetime view events on backbone.view
+extends overrides super class prototype attributes
+fix backbone does not respect special constructors that does not return "this".
+sort operation done before merge
+why model.save() doesn't validate by default?
+just do the media query on the docs for the iphone 4, not retina macbook pro
+allow multiple events on route changes
+hand over return value from parent constructor
+it could be amazing to integrate bb with sql.js
+public inherits helper
+fragments should be handled encoded.
+collection::fetch {merge: true} implies {add: true}
+issue with model.url(), the documentation doesn't corresponds to source code.
+test for decoding fragments.
+note options parameter for add/remove/reset in catalog of events.
+adding detach, for alternate view removal
+unnecessary images on the documentation page
+can i specify http method when calling save?
+fix #1366 - root should not be prepended to history.fragment.
+model changes are not fired when updated via collection reset
+#1412 - trigger "sync" event for fetch also
+backbone.model, commonjs and module.exports
+fix #1387 - getfragment trims trailing slash before removing root.
+opera 12 fails on " router: routes via navigate with {replace: true} "
+fix typo in docs
+tojson function's parameter misleading
+fix broken reference to underscore js in todos example
+move this.collection assignment up a few lines so it's available in model.parse
+collection.parse should be called in .add if options.parse is true
+options and deep cloning
+fix #1403 - trigger "sync" unconditionally.
+add router tests for #1185, #1206.
+document behavior of sync event when success or error callback is specified
+very minor re-order of lines in model constructor
+todo example: "uncaught typeerror: cannot read property 'localstorage' of undefined" when deleting a note by deleting contents
+use mock location to test backbone.history.
+permission denied issue in backbone.js on ie7 in version backbone.js 0.9.2
+ensure tests run in ie7.
+adding documentation requested in #1390
+docs/todo example: collection instances should not be named uppercase
+events should allow proxying
+typeerror: 'undefined' is not a function (evaluating 'this.el.html( template )')
+@set will throw "uncaught typeerror: cannot use 'in' operator to search for 'id' in ..."
+misleading documentation re overriding model.set
+i was knocking my head against my keyboard trying to figure out how to access the event object
+backbone.collection.remove() blows up if called with own backing store
+inconsistent use of root in 0.9.2
+backbone.history.start not firing default route with root param
+sorting a backbone collection in an add event handler re-fires the add event
+added support for travis-ci.
+parse methods provide no events to attach callbacks
+view constructor doesn't set custom properties
+consistently discard return value of constructors
+modified collection.add, actual insertion of models in a separate method
+small typo in comment
+making collection.add more easy to tweak
+ie8: backbone.view.make creates html5 elements with `:` prefix
+calling model.save() skips before sync validation
+general collection event
+backbone.collection constructor function call order
+refactor a test for simplicity.
+adding the `expected` argument to all tests
+fix #1366 - do not prepend root to history.fragment.
+sync accepts options for emulatehttp, emulatejson. uses globals as defaults.
+backbone.view -- this._ensureelement();
+backbone.sync takes emulatehttp opt to override backbone.emulatehttp
+backbone.emulatehttp should be override-able via a param
+initializing a collection with models, initialize function is called before models are added
+routes incorrectly fired on same url
+success/error callbacks not called on model.destroy() if model isnew().
+improve performance of collection#contains
+adding view#bindto, #unbindfromall and #destroy for tracking bindings to external objects
+multiple event type binding in backbone.view's delegateevents
+documentation and rationale for `change` event callback signatures.
+documented model.set() signatures & linked to `change` callback sigs.
+group listeners to allow collective removal
+trigger change event bug
+add support for namespaces elements in backbone.view
+model.fetch() calls url that returns 404 with an empty array, and yet 1 empty model is created.
+pass fetch options to success function.
+unable to bind an event to a view, where the event is using the ("parent > child") selector
+fix #1339 - add backbone.view#destroy.
+coffeescript: strange backbone.router instance behavior.
+collection.where() fails on string/numeric integer comparison
+advocate proper usage of $el over $(this.el) in documentation
+needs method for calling overrided parent methods
+optimistic model.destroy()
+tailoring search in non-hash fragments
+add success callback for create method
+docs not using tojson method
+slice on collections
+allow collection to receive falsy `comparator` to override default
+updated `collection.sort()` doc to clarify priority maintenance
+reset events include previous models.
+providing a convention for completely destroying a view
+backbone.history.loadurl appears to fire twice
+destory the model to the collection
+model defaults are shallow-copied, object attributes will be altered in the defaults object
+normalize all classes to follow the same pattern for client ids
+parameters structure on model.save() with mongoid
+export backbone.extend
+download from site v0.9.2 (production) is missing view namespace
+optionally merging updated model state on collection add.
+document broken unescaped spaces in firefox
+unintentional build?
+difference in objects returned from collection.reset and collection.add
+pass through return value of constructor when inheriting
+add the ability to disable navigate same url short circuit
+fix #474 - backbone.ajax
+comparator work in firefox and safari but not in chrome
+added support for isnew option when instantiating a model
+feature: off() usable with events, functions, contexts or *any combination thereof*
+force model.isnew() to return true?
+feature idea: allow make to use `text` instead of `html`
+double / in history.navigate fallback
+normalize fragment when hashchange: false in navigate
+`error` option on #save, #fetch, #destroy and #sync doesn't work for errors from server
+update salon.io example.
+slightly update blossom example.
+integration with node's eventemitter?
+travis ci integration
+issue 1173: (todo example) model ids are not properly indexed by collections on creation
+fix continuous reload loop when { hashchange: false } in ie <= 7
+collection.sortedindex does not use collection.comparator
+backbone.js creator is an epic man
+united kingdom
+suck cock
+why you hate black males?
+#1374 backbone.js don't allow
+backbone.js to be renamed to cock.js
+#7535
+backbone.js vs intoxicated.js
+#1284 sad circus
+backbone.js will be renamed to fresh.js due to copyrights issues
+issue #1145: changed documentation to elaborate when to use a function to define model defaults.
+backbone.events will allow rebinding the same method twice
+use window.location.pathname as the fragment when _wantshashchange == false
+new feature: model.get fallback callback/value.
+success and error callbacks are not undefined.
+unbinding all callbacks for `context` for all events
+fix #1179 - isvalid returns true in the absence of validate.
+discuss : why view.el is initialized this early ?
+model.isvalid not working
+use "backbone classes" : i wish i could do this :
+get "fragment" in ie8 when using {pushstate: true, hashchange: false}
+i <3 bb object model ...
+make backbone.router case insensitive
+use underscore's each function instead of for loop.
+this fixes as bug when have an attribute in a view and specify an id to the constructor
+don't navigate with pushstate if it's explicitly not wanted
+fixes #1168 history.navigate returns loadurl return value when `{trigger: true}`
+option to allow model.set to run validations, but not bail if they fail
+history.navigate should return value of loadurl
+gethash should use only the last hash as the fragment
+set fragment option with history.start
+callable attrs in collection.where
+fix #1161: documentation for model.collection property
+fix #1161: documentation for automatic nested collection on backbone.model
+model.collection is not documented
+repeated sentence in doc
+search engine optimization
+regexp in collection.where
+models added in collection's constructor are overwritten when initialised
+router test for urls with encoded characters
+collection.create does not return a jqxhr
+update rakefile - missing '
+classname property should ensure class names on existing elements too
+tojson is called implicitly.
+router confused by route with only queryparams. (on ie)
+fix proposal for model and collection initializers
+method name conflict on prototype chain for event binding
+use function to create models on collections
+router delegation
+should the documentation for `model.tojson` not call that function?
+default values are passed in by reference
+collection add ignores comparator when "at" option is passed
+stringify the data passed into sync
+why no error message when trying to add a model to the same collection twice?
+corrected link to address issue #1132 (broken link in annotated source)
+resetting regexp index in router's _extractparameters.
+add more events for syncing
+backbone 0.9.2 breaks backbone.relational changed events
+addressing issue #955: adding merge as a collection.fetch option
+merge results of a collection.fetch
+collections accept models of any type
+backbone.collection constructor treats backbone.collection as model.
+broken link in annotated source
+not a backbone but a phonegap problem
+include context in fetch?
+allow make to take falsy arguments for content.
+replace getvalue with _.result.
+ie6/7 router handles paging bug
+the default model.url function should give priority to model.urlroot over the collection's url
+getting "uncaught rangeerror: maximum call stack size exceeded" after using super
+suggestion about initializing function in views
+idea: add a `succes` callback to model.set
+model: unset() and clear() poison `options` argument
+collections call initialize before models have been set
+fix #1112 - options.model sets collection.model.
+siblings inheritance conflict
+confusing behaviour of tojson
+enhanced backbone.collection._reset
+router to allow multiple actions
+fix #1057 - save with wait validates model.
+would be very useful to be able to pass model option to collection constructor
+fix #1108 - document return value of `sync`.
+fix #1105 - add convenience overloads for `off`.
+fix for onhashchange detection for ie in compatibility mode
+if model is new, model.destroy() returns undefined, making it dangerous to use xhr functions
+[enhancement] idea for speeding up event unbinding
+validation force attributes change option
+easy way to stop listening to events
+backbone / coffeescript inheritance issue
+added airbnb mobile to examples
+405 error with backbonejs
+model.clear() does not set default values (issue fix)
+proxy collection tojson arguments to model
+slight optimization for events, cache splitting regex
+only pass attributes which have changed to _validate
+touch events not firing in subviews
+inherits helper constructor function for new subclass
+clean up tests to use fresh object instances for each run and not set globals
+refactor backbone.model to not access `attributes` property directly, and add `getdata()` method
+set correct content-type header when syncing
+possible to offer backbone under mit or gpl dual-lisence?
+on set succes callbacl
+backbone.view element namespace support
+unable to bind "error" event on model after collection.create
+add `model.normalize`
+add basic event.data passing via view.events
+prevent javascript injection attacks when bootstrapping data #1034
+feature request: backbone.history 'route' event args should provide named parameters
+model.unset("attribute", {silent: true}) doesn't update _.previousattributes
+binding model.save() to the 'change' event causes infinite loop (localstorage only)
+back button not registering with backbone.history
+add links to brunch & phonegap.
+view as router's constructor option
+fix #1074 - set/clear/unset do not alter options.
+alphabetize the list of underscore methods.
+backbone unset bug
+document local sync override ability
+collection ist not fetching data from url
+documentation for set - validation is skipped when passing {silent: true}
+updated documentation for validate - #1063
+model#fetch should reset attributes to server state, not append them.
+order of model sync and collection order events
+make model.url() check model's urlroot first
+model.destroy foreign key
+fix typo in index.html
+backbone & mootools
+misleading documentation for "validate" method
+missing useful things from senchatouch2
+update model.has() to accept multiple arguments, return true if all of them are present, false otherwise
+sort documentation methods/properties by alphabetical name
+is 0.9.1 changelog "silent changes don't trigger validation" accurate?
+forced options to be an object on collection.fetch
+validation does not occur when calling model.save(attrs, {wait: true})
+router.navigate could support pushstate title changing property
+updated todo example with revisions from todomvc
+why does model._validate accept an attrs param if it ignores it?
+fix to make backbone.sync options parameter optional again
+support for ".." and "./"-urls in history.navigate
+fix for custom sync functions
+can't override {silent: true} on create
+added ability to avoid an additional '$()' call in 'setelement' method if current 'element' is already wrapped with '$()'
+backbone hijacks sms:+123456 urls
+switch comparator names
+model.save doesn't call parse when setting returned data
+the official example application has been superseded
+custom getters/setters for backbone.model
+fixed handling of urls with '%' (#868)
+fix #986 - undelegate events before changing `el`.
+fixes #1038 - document changes to `view.$`.
+collection.addedmodels()
+this.$(someelement) doesn't work
+backbone history doesn't work with safari and roots with encoded characters
+weird behaviour when copying collection's this.models
+pushstate does not change to <base> when empty fragment is provided
+backbone faq encourages an approach vulnerable to script injection
+fix for 868 test
+adding test for backbone/issues/868#issuecomment-4059555
+fix for decoding already decoded uri
+calling `save` with {wait: true} results in incorrect final attributes if the success callback is called during the sync
+fixes #1026 - expose `extend` as `backbone.extend`.
+incorrectly nested attributes
+collection _preparemodel recursively setting attributes within attributes
+expose the extend function
+undelegate events on a specific element
+use local references to `model`, `view`, etc.
+clean up `backbone.events`.
+fix instances of it's to its for proper grammar
+small patch to allow passing options through reset to model initializer
+underscore's throttle and debounce as options when declaring view events?
+model.parse needs a compliment: model.serialize
+it would be better to merge routing params into single hash instead of separate params
+make changed properties available in "change" event
+set url before starting history?
+fix error message on missing event callback
+is it normal that "admin/users" and "admin/users/" routes considered by backone as different?
+collection 'add' event include index
+adding test coverage for route precedence as per issue #996
+fixes #1003 - history is started before `navigate`
+non-element-scope jquery function on view
+`on` is a noop if no callback is provided
+route helper functions
+fix signature of urlroot in documentation
+re your discussion on jabber
+proposed clarification in documentation:
+ie7 resets hash on backbone.history.start()
+updated tojson with extended functionality (deep tojson)
+added qunit toolbar
+change:attr event fires before all attributes are set
+added an ishistorystarted method to backbone.history
+collection.add event callbacks trigger after all models are added in 0.9.1 instead of serially like 0.5.3
+problem handling "change" events fired from another "change" event
+router calls the wrong method
+encourage examples to include links to source code / writeups
+cosmetic fix for index.html
+can i override a router's routes or methods?
+backbone.events.proxy
+added getby method to collection
+view = new view({}); error?
+binding events directly to the top level backbone.view element
+haschanged(): deep attribute comparison.
+this addresses issue #955
+double event firing if the new el is a sub-element of the old
+`sort` and `sortby` are incorrectly swopped in collection.comparator docs
+idea: build in `initialize`, `render` and `remove` events
+fixes #959 - silent changes fire `'change:attr'`.
+options.mute for set
+fixes #972 by cleaning up a messy conditional
+adding pagerduty as an example app
+`sync` event isn't triggered when a success callback is provided
+duplicate model exception cannot be caught
+internet explorer 7 standards mode invokes hashed route in backbone twice on refresh
+setting the same value to a model property twice causes an error
+use this._super() will invoke superclass's function
+hideous conditional full of assignments (with side-effects)
+backbone level notifier
+problems with link when jqm
+using backbone.model.set with "silent" option doesn't clear out previous attributes.
+tiny spelling error, no functional changes.
+get the hash value from location.href rather than location.hash
+navigate() appending to current path instead of replacing (routestripper issue)
+fixes #964 - collection.get has consistent return
+collection.get(id) - inconsistent return value for null, undefined, nan
+unrelated change:attr events triggered
+models not available in collection.initialize()
+add this.dollar for $(this.el) to backbone.view
+change event produce an infinite loop
+backbone.view and backbone.events
+duplicate events when instantiating view twice
+render function doesn't extend
+collection#fetch updates existing model instances (vs replacing)
+any view options[attr] that is instanceof model/collection assigned to view[attr], not just options.model or options.collection
+using json2.js results in 'typeerror: converting circular structure to json' when trying to instantiate a view
+model haschanged bug
+reverse lookup of router routes? ("urlfor")
+adds string cleanup before decoding
+change event not fired on unset when an attribute was previously set silently
+add callonce param to backbone.events.on method
+fixes #946 - documentation for changes to `set`
+change event doesn't happen in some cases
+backbone.history.checkurl: uri malformed error
+just like 'set' has {silent:true}, add a {force:true} option
+model prototype missing after clone() in combination with bindall(this).
+add tests for #906.
+add tests for #908, #933.
+refactor some tests.
+save's error handler is not receiving the model
+can't use dom manipulation library not defined on window.
+submit event not working on prod version
+fixes #915 - nested `'change:attr'` events
+`sync` event doesn't fired on collection when model was destroyed
+setelement is not setting element
+the routestripper is applied too early
+fixes #928 - save sends correct attrs.
+exception thrown when calling model.fetch() second time.
+the leading slash in the documentation does not actually work in practice, and tripped me
+model.save seems broken when used with option wait=true
+change event not fired consistently when setting a value that was previously set silently
+need more guidance with nested models and localstorage
+passing falsey keys to `haschanged` or `previous`
+previous attributes behaviour confusing or incorrect.
+should view constructor options.el support jquery object?
+removed duplicate variable instantiation from model.save()
+spine.js within windows environment
+use `$` as dom abstraction library
+model 'forgets' it has changed when passing { silent:true }
+add method setjquery to set the $ object used within backbone
+"can't create an invalid model"
+how to catch "can't add the same model to a collection twice" error in collection.fetch()?
+is passing all attributes instead of the delta to validate really a good option?
+deleting and re-inserting view.el into dom
+"silent: true" is overloaded for set
+fixes #907 - `save` with `wait` succeeds without `validate`
+added picklive's game client as an example app
+return `this` from view.setelement()
+fix parsing in `getfragment`
+uncaught typeerror: object ... has no method 'validate'
+fixes issue #904
+backbone.history.start documentation
+model.save no longer passes the model to the error callback
+removed duplicated variable definitions
+fixed variable leak to global scope
+check for duplicate models/ids
+bind multiple actions to one route
+initial page load route not triggered
+documentation - added animoto to examples section
+made minor optimization to scoped jquery/zepto method $ on the backbone.view
+view hierarchy support
+include view.setelement in documentation
+what's the plan for a new tagged release (0.5.4/0.6/1.0)?
+add chaining support to router methods
+query parameters are confusing the router
+l variable in remove method is at global scope
+enhance the way we reference a view's sub-element
+removal of "_add" and "_remove"
+just updated the copyright date
+collection creation with models should pass the specified options through to reset method instead of overriding them
+configurable window for history management
+i made a kindle edition of the web documentation
+thinking that this makes the whole function simpler.
+take another run through with ember.js
+model.constructor only take attrs, not models.
+lost model data if one of the model's keys is named "attributes"
+setting undefined attributes
+play buttons do not appear in tutorial for ie9
+create backbone views with jquery syntax
+missing docs on the internal usage of view.collection and view.model
+implement `initializeroute`
+router.initializeroute
+set defaults correctly when a model is provided
+fixed typo in test for (presumably) equality
+set-method in backbone.model fails for response objects with "attributes" property
+model.set: validate only when silent = false, why?
+fix for issue 868
+`equals` is deprecated; use `equal` instead
+collection#add tweaks
+should isnew() use this[this.idattribute] instead of this.id?
+docs for #862
+router: use implicit callback if none provided
+failure in collection while adding models which does not pass validation
+_performvalidation should be public
+cross domain issue patch for old ie browsers (<=7)
+documentation for backbone.events
+more compatible reference to global scope
+model.destroy don't send id in request header
+only increment length once
+validation can determine if the document is about to be saved, and validations can be skipped
+no need to _.bindall _onmodelevent
+switch order of delegateevents and initialize in view constructor
+update previous attributes even in silent mode
+routing issues created by (merged) pull request #599
+routing should be agnostic to leading and trailing slashes
+id for backbone.model loaded from properties
+collection.add: call splice once. don't alter models.
+gh pages updated
+size of an empty collection is 1
+error in documentation as in how views behave when models are updated?
+haschanged/set should use the same comparison
+documentation error/bug/ for backbone.view.make
+fixing backbone.js under jasmine-node by changing the way the immediate function is invoked
+overriding default methods
+for some view which inherits from backbone.view, if view.prototype.attri...
+removing a duplicate from a list can cause `get(id)` to return `undefined`
+add support for sending only updated attributes on backbone.sync
+use 'application/json' as content-type for all non-get requests
+non-get sync requests should default to 'application/json' content-type
+weird behaviour of collection.without
+change annotations for constructor function
+callback vs event handler priority
+document callback signature
+backbone.view remove should call undelegateevents
+ie 7,8,9 the object don't accept this property o method. line 1160
+make wraperror public and overridable
+events and default actions
+make collection.pluck expand id according to idattribute
+special view property `attributes` not documented
+`super()` is nowhere defined, but used in annotation
+added idattribute navigation link to sidebar
+documenting idattribute
+idattribute is not documented
+backbone failed to load underscore dependency
+why don't views have a `model` property by default?
+request: collection .save / .destroy
+view event callbacks as functions
+collections: initialize passed models after collection got initialized
+option to have pushstate but no hashchange
+allow decorators/wrapper function on view event handlers
+unbind callbacks with a given context
+pushstate and multiple roots
+allow model.urlroot to be a function
+collection.add now takes a 'unique' option that will guarantee model uniqueness
+force quint test execution order.
+cross domain issue for old ie browsers.
+optimize regular expressions.
+pushstate router unnecessarily breaks hash fragment links
+allow previous and alike methods to be called outside change event
+issue #117 is not resolved
+pushstate difference in iframe between chrome and ff
+how to find help about understanding backbone if i am not too experienced
+make router always trigger action, even if the path is the same
+hasownproperty in for loops
+stack overflow while saving backbone.js model
+bindtomodel view property
+supporting polymorphic collections
+jquery error in index.html affects ie9
+adding array of models at specific index keeps array order (fixes #788)
+model.destroy() not passing id params
+add array of models to collection using {at: index} adds in reverse order
+put __super__ on the prototype
+router.navigate triggers route function even with triggerroute set to false
+unable to call super.initialize()
+infinite recursion on save of a collection element
+models should trigger a success event when saved.
+method and params to geturl()
+rails like url templates in backbone.model.urlroot and backbone.collection.url
+unexpected event triggering with same model in multiple collections
+specific bug with jqueryui resizestop not firing
+jslint cleanup of todos example
+require.js support
+how to handle friendly url as id?
+add ducksboard as an example app.
+collection.reset/add should invoke model's parse function (with tests)
+fixes issue 498.
+prop770 example with backbone.sync
+proposal :: modularizing backbone
+bugfix: replace hash should not append hash mark to javascript:0
+jquery's appendto() doesn't work with this.$
+implemented spine-like elements configuration
+make delegate events async
+check for existing event handler via bound added
+history.navigate should allow setting of state object
+model.set: triggering before setting values for all attributes
+is duplicate function
+update two links at index.html to latest urls
+router that is hidden from history
+update remaining call to _updatelocationhash to _updatehash
+return the jquery object for el when this.$ is called without argument
+model fires change event even though nothing has changed
+fix typo in backbone.collection documentation
+accept functions in delegateevents
+wrong check for objectivity in backbone.collection.get method
+router & history issues
+navigate learns to change the route without adding a history entry
+shouldn't models call unbind() when model.destroy() method is invoked?
+return false if this.el is not in dom
+variadic set/save
+mobile's back button not working - backbone.js 0.5.3 with jquerymobile 1.0 rc2
+collections model in ie7
+pass options through to validate, only fixes #674
+add 'replace' option to router.navigate()
+global events for ajax start/stop/error/success
+add namespace support in backbone.events
+implement clear/unset in terms of set
+implement ability to use model.set(name, value) including tests.
+validation should not execute after successful save
+multiple nested calls to set
+backbone.history documentation
+todos sample has a bug in it that "accidentally works"
+fixing whitespace consistency for #718
+api - catalog of events has inaccurate "change" and "change:[attribute]" parameters
+issue #730 - calling .clear results in changedattributes being empty
+calling .clear doesn't set changedattributes to contain all removed attributes
+inclusion of a context parameter to unbind method
+ability to completely unbind all events for a view in dynamic situations
+view.el factory/selector function
+fix for bug #172
+circular references in views?
+model validation prevents setting other attributes in some cases
+(un)bind does not alter callback list during trigger
+make function definition formatting consistent for docs
+trigger error on originalmodel not model
+initialize versus constructor
+how to handle deletion of relational data ??
+spacing consistency
+making unbind and trigger more compatible with each other
+allow model.set/save(key, value) with mixed argument format
+models data are validated when collection resets
+collection binding is too late in model constructor
+uncaught typeerror: undefined is not a function line #956 of backbone.js
+setting (click or touchstart) events more dynamically in .view
+no method extend
+unified registration as browser/amd/commonjs module.
+use underscore.js to simplify `add()` and `remove()` in backbone.collection
+backbone.collection.get(id) randomly returns with undefined
+implement callbacks as linked list
+fix todos example
+how to get this in google.maps.event in backbone's view
+view is undefined even though i already declared it
+new underscore method 'initial' missing
+#419 - added a global 'route' event that can be subscribed to on the backbone.history object.
+#673 - adding index as a property on the options object that gets passed
+update qunit to 1.1.0 (newest stable)
+fix for issue #690
+adding .index as a property on options object passed on collection add/remove event triggers
+fix for #539
+model.clear should maintain the id.
+unset attributes should show up in changedattributes - tidying up current pull request.
+added namespaced relationships
+overriding backbone.sync
+error object is lost in the wrapped error callback after successful update and failed validation
+collection sort on model change
+add amd registration as an option.
+better native support for non-rest applications
+backbone.sync: give options.contenttype precedence over hardcoded value
+chrome history strange behavior.
+add support for registering backbone as an amd module.
+nested trigger with unbind
+unbinding events by callback context
+add specific model to collection with "inside collection" corruption.
+model.set takes a single key/value pair
+request: silent save
+make unit testing routers easier
+if trigger('all') is called, all the callbacks should run once instead of twice.
+pushstate:true doesn't match routes correctly.
+adds helper method to backbone.view for retrieving sub-elements of $(this.el).
+model.performvalidation() should pass options through to validate()
+"collection: add into sorted position" + index is passed in 'add' event
+serving a backbone app from a subdirectory isn't supported by router
+addmany option & event
+would be nice if i can initialize a collection object with a url without adjusting the initialize() method
+url not set to a collection at initialization
+query string route syntax & parameter-based uri decoding
+enhance event.unbind to remove all callbacks for a given context
+collection.add(model_instance) does not set collection of model
+backbone pushstate bug on back and next buttons
+feature request: history.replacestate
+bindonce - only fire bind callback once
+respect jquery.ajax request type option in model.save
+pass options to collection's initialize()
+navigate accepts an extra parameter state, so a custom object can be saved in the history.
+allow route to be defined but not require a callback method on the router
+tojson looks like it includes references instead of copies for nested objects
+bug - collection.create() with attributes vs. model and validation
+view.events not set by constructor
+before filters for views
+unescape url value just before sending them to callback
+pressing backbutton in browser causes many actions to be called
+router.navigate doesn't call router unless hash is changed
+stacked 'success' method wrapping in fetch?
+trigger the 'route' event when any route occurs
+add a 3rd argument (context) to unbind
+urls as objects?
+initialize is called too late
+backbutton in chrome reloads app
+implemented attribute hooks
+this set of changes is to add hooks for a backbone-articulation (custom attribute serialization/deserialization).
+'add' event to collection is triggered after whole models are added.
+refactor of todo list to be a bit more event-driven and "backbone-y"
+follow jquery with "on" and "off" instead of "bind" and "unbind"?
+add option to bind multiple events
+backbone.model#set does not update number objects
+fix insertion order when adding a list of models to a collection and specifying `at`
+call to $.ajax in backbone.sync swallows errors / exceptions - very anoying
+regression with routes in ie6
+document the options parameter in the backbone.model constructor.
+error in documentation of emulatehttp
+need to explicitly empty container before re-rendering
+ability to add model items to the collection immediately upon create
+bug fix: undefined model ids were being stored in collection._byid and changes to the ids were not being triggered.
+when i click the back button, json is render
+feature request: add a generic event object
+include backbone.js in docco annotated source for dev console
+some selectors don't work in views
+model how to make different use of different backbone.sync
+added auto-sort parameter.
+handles the case of items being removed and added during trigger processing (not just deletion).
+â€œmouseleaveâ€? is fired when i click button inside the div
+how to rss a backbone site?
+delegateevents({}) should unbind all events
+clear event callbacks with clearevents
+support for patch method and sending json patches
+model init doesn't parse attributes
+default generated urls can't be given extensions such as ".json" easily.
+backbone.collection.nest()
+ie7 iframe contentwindow error from calling backbone.history.start before dom ready
+model.set(..., {silent: true}) supresses validations
+odd error message from delegateevents
+quick typo in documentation about backbone.history
+set single property
+fix a small error in the documentation
+inject js library with `backbone.use(mylib)`
+if a dom library can't be found on window, try to require jquery.
+1 model should be included in multiple collection
+make function has issues when used in conjunction with phonegap & xcode
+faster, shorter and internally more consistent event handling methods
+history replace direction
+fix root prefix handling in navigate.
+make this idattribute nested attribute aware but uses evil eval method!
+fix incorrect variable name on docs for delegateevents
+addall: function() {
+add get/set to view objects
+fixed _preparemodel function erasing options hash
+make content-type customizable for put and post
+added the ability to add and remove multiple events in a single "bind" call
+app.router.trigger not firing
+collection.add affects mutiple instances
+collections do not delegate to model parse on reset/add
+backbone.model.set: invalid 'in' operand attrs at 205 line
+option to use sugar.js instead of underscore.js
+backbone.js(0.5.3) backbone.view.delegateevents's problem
+using backbone with _.noconflict() and jquery.noconflict(true)
+events for #save and #fetch methods
+model is in inconsistent state when 'change:attribute' events are triggered
+keypath based observable as with batman.js
+add replacestate() to router
+localstorage based persistence with ability to use different kinds of models with same keys (ie : "human|001", "doc|001", ...)
+fixed backbone.collection.remove method
+let caller of navigate() know whether loadurl() matched or not.
+pushstate + empty route: back button breaks
+the attributes argument defaults to an empty object if the backbone.view
+collection remove function has a bug
+add an attributes parameter to tojson on model, which returns whitelisted properties.
+add support for ender
+add save(), destroy(), set(), ... on collections (brainstorming)
+allow a single attr/value pair to be passed to model.set
+fixed misspelled word in comments for _ensureelement
+backbone view to use jquery object for this.el, instead of dom object
+added backbone.model.strict - will prevent the model from setting attribu
+clear maintains id and id attribute
+backbone doesn't work properly on server without addition
+model save, validation ok/missing, server fails, new data is present, should not
+adds support for dynamic setters.
+backbone.history.start() does not store the initial page in ie7
+emulate rails style json
+change event should be triggered always on set not only when the value changes
+how to add extra arguements to the callback function in bind
+cannot override tostring in ie
+don't return a value from parent constructor call
+event after model's validate() completes.
+allow backbone.js to seamlessly consume xml web services
+unset properties not being returned by changedattributes
+level of abstraction on top of jquery/zepto
+proposed change in backbone.view.make
+bug? with model constructor
+maps in collections
+chrome 14.0.835.29 dev-m : bb.history.start() error
+don't wrap views if using templates
+i am in the source and thinking would't it be the same but shorter?
+add type checking, and throw appropriate errors for arguments passed to backbone methods
+silent start
+possibility to not loadurl() when calling start({pushstate: true})
+collection._preparemodel validates stale attrs object if model has defaults
+make backbone.history.historystarted accessible to developers.
+add 'groupby' proxy for underscore 1.1.7 groupby
+potential typeerror during backbone.event.trigger execution
+bind an object with multiple callback functions to any event
+option to have backbone package the data for create and update requests under a named scope (enhancement)
+implemented backbone.view events inheritance. fixes issue #244 (with unit tests)
+root is now window if it exists. this fixes compatibility with browserify
+default context in events.bind makes the tests overflow the stack
+collection test rewrite
+add trakrapp.com example app
+bind change to array in model
+[question] how to handle scroll event for window?
+add validate to collection
+fixed a bug in ie iframe navigation.
+href in template not working
+added support for late binding triggering of events.
+how to dry this routes (regular exp?)
+add triggerforcurrenturl to router
+test failures
+{id: ""} will make model.isnew() return true (instead of false)
+remove coupling from model to view in example app
+just a minor edit in comment
+spine-like scoped elements
+use first() instead of get(0) to retain jquery/zepto object
+patch for emulatejson sync. forced processdata setting breaks backbone.emaultejson mode.
+set default context for events on bind()
+inject options to url
+push, pop and maybe maxsize?
+add ignoreresponse option to .save()
+revert 495's behavior with tests
+same as #501, just nothing broken
+added documentation on pushstate anchor event hijacking
+issue #482
+previous and next associations - linked lists essentially
+hashes starting with '#'
+return immediately after redirect to hash route
+generic routing event, replace navigation, and optional direction tracking.
+updated model isnew to use idattribute
+add beforeroute event to backbone.route
+success callback for model set function
+add backbone.view.prototype.set(options) as a setter for options
+setting to a minimum of one character when matching url parameters
+add once method for events.
+no way to do complex sorts (like descending alphabetic)
+check for strings passed as first argument to #set
+collection#fetch w/ data documentation needs updating?
+wraperror not compatible with jquery's passed arguments
+handling fetch() parse errors and notifying options.error
+make backbone.model.prototype.tojson() recursive
+allow context to be passed as third parameter in backbone
+setting "this" context on a defaults() function
+`fetch()` with option `add:true` doesn't fire any events
+backbone.model.get() should be used internally instead of accessing the attributes array directly
+backbone model's should have loading, loaded, and error events
+backbone model defaults system is not subclass safe
+backbone.model.tojson() documentation
+allow swapping of http backend without copypasting all of backbone.sync
+allow to set the collection of a model again, when adding it
+fetched data's id property is mandatory should be mentioned in doc
+allow bind and unbind methods to take 'this' instance
+fix an unclosed html entity when escape single quote
+processdata should default to true
+`pushstate` fallback breaks with a off-domain `<base>`
+view rendering with zepto
+binding methods automatically to this (by convention)
+detect property changes (and get rid of getters/setters)
+is model.collection a good thing ?
+backbone.model.extend problem
+sync return changed from 0.3.3 to 0.5.1
+coffeescript integration creates class variables differently than straight backbone
+hash-bang urls are broken in 0.5
+fix slight inconsistency with attrs passed to initialize()
+tool for documentation?
+fix back button problem in old browsers.
+questions about pushstate and history
+is it possible to have multiple routers on a single page?
+doc for backbone.sync() is out of sync with code in 0.5.0
+typo on backbone home page in upgrading to 0.5.0 section
+hashbangs and routing
+router.navigate triggerroute won't work with pushstate
+allow to abort xhr requests (selected or all)
+pass attrs to model constructor in _preparemodel
+add 'contains' alias for 'include'
+fixed if(calls = this._callbacks) changed to ==
+update support for collections.
+deeply nested models in backbone
+send rails auth token when calling model.destroy()
+questing about testing binds
+key-value observing view/enhancement
+backbone.widget for backbone.view
+validate prevents execution of success callback
+model is no longer considered to be new if its id is a falsey value
+behaviour of wraperror should be customizable.
+split out event into a separate library
+allow initialize on any class to pass on original arguments.
+what should i do if i want both ":id" and ":id/" to trigger the same action?
+current master branch backbone.js missing controllers
+couple of doc typo fixes
+filtering a collection returns an array of models
+add complex query string router test
+issue with save and resolving url from collection
+need indices for collection `add` and `remove` events
+knowing if you are going back or forward in the history
+better error message when method for bind are not defined
+discussion: "change" events after a set()
+validate all attributes on save
+new fetch/save callback: complete()
+minor doc typo
+fix for json contenttype not getting set properly on create/update
+global routing event would be useful
+no simple way to tell if in pushstate or hash mode
+what to do with the hard dependency on $ (jquery or zepto) in code
+automatic binding of this
+favour function over object, it allows private
