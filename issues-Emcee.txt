@@ -1,0 +1,90 @@
+remove repeated word 'the'
+typo in emcee's main site
+add clear_blobs() to ensemble.py
+bug in quickstart.py
+added the loadbalancing + runtime sorting option into emcee
+best parameter set at each iteration
+iain murray has issues
+args parameter added to ptsampler
+documentation clarification on ensemblesampler and multiprocessing
+remove unicode dash characters causing encoding errors
+added new reference to testimonials
+update testimonials.rst
+abstract of arxiv paper needs to updated
+added one reference, another coming soon
+[faq] add section on c++ wrapping, pickling, and parameter limits
+change license?
+using emcee on large regressions
+base sampler class returns *garbage* for acor.
+problems with mpi pool
+include an example with an explicit prior in the documentation.
+use encode option to open for python 3.0+
+better multiprocessing on ptsampler
+return something when lnprob returns nan
+require numpy >= 1.6.0
+installation test failed (parallel sampler)
+better chunking for multiprocessing pool
+added unittest for dead walkers (initialized with lnprob0 = nan).
+explicitly define complementary ensemble
+fail if initialized with any walkers at -inf
+add checks for parameters becoming nan
+documentation of chain is inconsistent
+push resubmitted version
+update your cv
+post resubmitted version as revision on arxiv
+gw paper
+grants to acknowledge?
+push resubmitted version
+email the editor and say that a new version is coming asap
+cite all the papers that're using us.
+affiliations for publication
+flatlnprobability
+replace ` / 2.0` with `0.5 * `
+fix a couple of comment typos.
+problems with mpi pool
+parallel-tempering sampler based on ensemblesampler
+fixes to ensemble.py metropolis-hastings code path
+typo in ensemble.py metropolis-hastings code path
+fixes typo on quickstart page
+modified to run under python3.
+submit paper to pasp
+bad performance for gaussian likelihoods?
+allow lnprob to return extra info
+example using subprocess to communicate with external programs
+alternative map function
+priors / limits
+ensemble mh
+document the usage of the "thin" keyword argument
+eggbox
+transpose bug in ensemblesampler.acor
+multiprocessing using more resources than expected.
+multiprocessing pickling error
+multithread speed scaling
+make sure there is actual code for the examples
+what are the downsides to too many walkers?
+include bovy's comments
+run some experiments
+rewrite the autocorrelation time section...
+comment on algorithm 3 "map"-ability
+discuss "expected squared jump distance" diagnostic
+send paper to lang, goodman, bovy...
+avoid latin abbrevs
+difference between - and -- and ---
+use of ~ hard space when you want \_
+update the pt sampler to work in emcee3
+update the examples to work in emcee3
+profile the walk and differential evolution proposals and make them faster
+combine powers with pymc 3?
+closing properly the pool in the sample function ath the end of the run.
+make the quickstart example work on python3
+should chain and lnprobability be modified by self.iterations?
+added schlaufman & casey to testimonials
+new example: multimodal.py, to test ptsampler evidence estimation
+added reset_burn_in
+add a reset_burn_in method
+``lnprob0`` instead of ``rstate0``
+daemon threads with ensemble sampler not terminating.
+problems with acceptance ratio ... what else to do beyond more walkers?
+minor pep8 fixes
+memory leak when using mpi_pool loadbalance
+travis build image compatible with high resolution screens
