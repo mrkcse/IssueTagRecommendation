@@ -1,0 +1,640 @@
+sql tab does not quoting ansistring parameters in query output
+entity framework 6.1.1 - nullreferenceexception
+glimpse v2 - reworked script tag generation and injection
+core: fixing display problem with zurb foundation
+fix ajax requests that are using "bufferless input streams"
+entity framework 6.0.2 throws system.nullreference exception
+forward all parameters in createdbcommanddefinition
+prevent command sanitizer from replacing partial matches of parameters (fixes #800)
+fixed commands text from a sql call with an array of parameters with more than 10 elements
+currently command sanitizer replaces partial matches on parameters
+object doesn't support property or method 'addeventlistener'
+bulkinsert and glimpse not wokring
+can only see the hud. where is the dev tools-style display?
+cant use glimpse.ef6 in webforms project - invalid cast exception
+glimpse v2 - client script injection - wip
+make glimpse check if things are enabled in databoundcontroladapter (fix for #779)
+glimpse.ado reports duplicate sql warnings even though parameter values are different
+asp.net application hangs/crash using glimpse, iis hangs
+glimpse.ado does not override dbdataadapter correctly, update(datarow[]) broken
+show non-mvcroute route types
+dashboard
+really bad model binding performance with glimpse enabled
+execute function which returns runtimepolicy isn't invoked
+turning off glimpse throws object reference errors
+glimpse ef6 not working after latest sql tools update
+memory keep rise up until the program crashes
+landscape mode error.
+.glimpse-nowrap needs z-index: > 0
+trace is missing
+need more information in the readme.md
+unable to cast object of type 'glimpsedbconnection' to type 'npgsqlconnection'
+added support for mvc attribute routes (fixes #767)
+routes table not showing my selected route
+nullreferenceexception in glimpse ef6 after upgrade to new ef
+significant performance hit calling stored procedure with binary data param
+missing execution tab in glimpse.asp.net 1.8.1
+clients that have a name with quotes in it blows up
+css-displayerrors while using zurb foundation
+glimpse hangs with unresponsive javascript messages when trying to open panel
+dev notes
+update contributing.markdown
+glimpse v2 - allows metadata for tabs to be extended
+unhandled system.objectdisposedexception during endrequest
+petapoco throws nullreferenceexception with glimpse ado integration
+migrate build to use automatic package restore (fixes #720)
+glimpse v2 - api for submitting messages to timeline
+undefined 'glimpse' js error and various issues with iframe mvc4 app
+if the page loads with glimpse minimized, i cannot resize the panel after expanding it
+glimpse v2 - code based api for configuration
+extending the contenttypeelement to include optional runtimepolicy
+unable to cast object of type 'glimpse.ado.alternatetype.glimpsedbconnection' to type 'system.data.sqlclient.sqlconnection'.
+the update to routeinspector to ignore non aspnet routes doesn't work for webhosted webapis
+problem with latest version and cache tab
+glimpse mvc5 not working with mvc 5.1
+add opt-out instructions for insights to glimpse.axd
+webapi 2.1 async controller fails with glimps on
+exception when attempting to serialize glimpserequest for custom ipersistencestore
+improve basic viewstate processing for sqldatasource, linqdatasource and objectdatasource
+update route inspector to ignore non aspnet based routes (for #365)
+custom tab shows rendering error when data is empty array
+migrating to use automatic package restore (fixed by #746)
+error when installing nuget glimpse.mvc5
+pagestate adapter makes controltree and page life cycle tabs crash
+refused to get unsafe header "glimpse-requestid"
+update webforms control tab to visualize databinding
+glimpse.ef6 issue with ef 6.1 (and some beta versions of 6.2) means i can no longer access the database
+. | 2014-01-24 15:39:00.1831 | debug | set_url method of type 'system.web.routing.route' is not proxyable. | 2014-01-24 15:39:00.1831 | debug | get_routeexistingfiles method of type 'system.web.routing.route' is not proxyable. | 2014-01-24 15:39:00.1831 | debug | set_routeexistingfiles method of type 'system.web.routing.route' is not proxyable. | 2014-01-24 15:39:00.1881 | debug | _url method of type 'system.web.routing.route' is not proxyable. | 2014-01-24 15:39:00.1881 | debug | _parsedroute method of type 'system.web.routing.route' is not proxyable. | 2014-01-24 15:39:00.1881 | debug | httpmethodparametername method of type 'system.web.routing.route' is not proxyable. | 2014-01-24 15:39:00.1881 | debug | _routeexistingfiles method of type 'system.web.routing.route' is not proxyable. | 2014-01-24 15:39:00.1881 | debug | methods inspected via proxy generation hook on type 'system.web.routing.route'. | 2014-01-24 15:39:00.2061 | info | replaced route of type 'system.web.http.webhost.routing.httpwebroute' with proxy implementation. | 2014-01-24 15:39:00.2061 | info | replaced route of type 'system.web.http.webhost.routing.httpwebroute' with proxy implementation. | 2014-01-24 15:39:00.2061 | info | replaced route of type 'system.web.mvc.routecollectionextensions+ignorerouteinternal' with proxy implementation. | 2014-01-24 15:39:00.2061 | info | replaced route of type 'system.web.routing.route' with proxy implementation. | 2014-01-24 15:39:00.2061 | debug | setup iinspector of type 'glimpse.aspnet.inspector.routesinspector'. | 2014-01-24 15:39:00.2061 | debug | setup iinspector of type 'glimpse.core.inspector.traceinspector'. | 2014-01-24 15:39:00.2061 | debug | setup iinspector of type 'glimpse.ef.inspector.entityframeworkinspector'. | 2014-01-24 15:39:00.2061 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.idependencyresolver'. | 2014-01-24 15:39:00.2221 | debug | replaced idependencyresolver of type 'system.web.mvc.dependencyresolver+defaultdependencyresolver' with proxy implementation. | 2014-01-24 15:39:00.2221 | debug | setup iinspector of type 'glimpse.mvc.inspector.dependencyinjectioninspector'. | 2014-01-24 15:39:00.2381 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.icontrollerfactory'. | 2014-01-24 15:39:00.2381 | debug | proxied icontrollerfactory of type 'system.web.mvc.defaultcontrollerfactory'. | 2014-01-24 15:39:00.2381 | debug | setup iinspector of type 'glimpse.mvc.inspector.executioninspector'. | 2014-01-24 15:39:00.2381 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.valueproviderfactory'. | 2014-01-24 15:39:00.2381 | info | replaced valueproviderfactory of type 'system.web.mvc.childactionvalueproviderfactory' with proxy implementation. | 2014-01-24 15:39:00.2381 | info | replaced valueproviderfactory of type 'system.web.mvc.formvalueproviderfactory' with proxy implementation. | 2014-01-24 15:39:00.2381 | info | replaced valueproviderfactory of type 'system.web.mvc.jsonvalueproviderfactory' with proxy implementation. | 2014-01-24 15:39:00.2381 | info | replaced valueproviderfactory of type 'system.web.mvc.routedatavalueproviderfactory' with proxy implementation. | 2014-01-24 15:39:00.2381 | info | replaced valueproviderfactory of type 'system.web.mvc.querystringvalueproviderfactory' with proxy implementation. | 2014-01-24 15:39:00.2381 | info | replaced valueproviderfactory of type 'system.web.mvc.httpfilecollectionvalueproviderfactory' with proxy implementation. | 2014-01-24 15:39:00.2501 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.imodelbinder'. | 2014-01-24 15:39:00.2501 | info | replaced imodelbinder of type 'system.web.mvc.httppostedfilebasemodelbinder' with proxy implementation. | 2014-01-24 15:39:00.2501 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.imodelbinder'. | 2014-01-24 15:39:00.2501 | info | replaced imodelbinder of type 'system.web.mvc.bytearraymodelbinder' with proxy implementation. | 2014-01-24 15:39:00.2501 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.imodelbinder'. | 2014-01-24 15:39:00.2501 | info | replaced imodelbinder of type 'system.web.mvc.linqbinarymodelbinder' with proxy implementation. | 2014-01-24 15:39:00.2501 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.imodelbinder'. | 2014-01-24 15:39:00.2501 | info | replaced imodelbinder of type 'system.web.mvc.cancellationtokenmodelbinder' with proxy implementation. | 2014-01-24 15:39:00.2501 | debug | get_binders method of type 'system.web.mvc.defaultmodelbinder' is not proxyable. | 2014-01-24 15:39:00.2501 | debug | set_binders method of type 'system.web.mvc.defaultmodelbinder' is not proxyable. | 2014-01-24 15:39:00.2501 | debug | getfilteredmodelproperties method of type 'system.web.mvc.defaultmodelbinder' is not proxyable. | 2014-01-24 15:39:00.2501 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.defaultmodelbinder'. | 2014-01-24 15:39:00.2501 | info | replaced imodelbinder of type 'system.web.mvc.defaultmodelbinder' with proxy implementation. | 2014-01-24 15:39:00.2501 | debug | setup iinspector of type 'glimpse.mvc.inspector.modelbinderinspector'. | 2014-01-24 15:39:00.2501 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.iviewengine'. | 2014-01-24 15:39:00.2691 | info | replaced iviewengine of type 'system.web.mvc.webformviewengine' with proxy implementation. | 2014-01-24 15:39:00.2691 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.iviewengine'. | 2014-01-24 15:39:00.2691 | info | replaced iviewengine of type 'system.web.mvc.razorviewengine' with proxy implementation. | 2014-01-24 15:39:00.2691 | debug | setup iinspector of type 'glimpse.mvc.inspector.viewengineinspector'. | 2014-01-24 15:39:00.4441 | debug | get_binders method of type 'system.web.mvc.async.asynccontrolleractioninvoker' is not proxyable. | 2014-01-24 15:39:00.4441 | debug | set_binders method of type 'system.web.mvc.async.asynccontrolleractioninvoker' is not proxyable. | 2014-01-24 15:39:00.4441 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.async.asynccontrolleractioninvoker'. | 2014-01-24 15:39:00.4711 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.iactionfilter'. | 2014-01-24 15:39:00.4711 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.iresultfilter'. | 2014-01-24 15:39:00.4851 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.iauthorizationfilter'. | 2014-01-24 15:39:00.4851 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.iexceptionfilter'. | 2014-01-24 15:39:00.4851 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.iexceptionfilter'. | 2014-01-24 15:39:00.5081 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.ienumerablevalueprovider'. | 2014-01-24 15:39:00.5081 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.ienumerablevalueprovider'. | 2014-01-24 15:39:00.5171 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.ienumerablevalueprovider'. | 2014-01-24 15:39:00.5171 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.ienumerablevalueprovider'. | 2014-01-24 15:39:00.5171 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.ienumerablevalueprovider'. | 2014-01-24 15:39:00.5971 | debug | methods inspected via proxy generation hook on type 'system.web.mvc.iview'. | 2014-01-24 15:39:00.5971 | info | replaced iview of type 'system.web.mvc.razorview'
+adding updated server tab which shows common server variables (for #674)
+wip - introducing glimpserequestcontext in combination with a glimpserequestcontexthandle for lifetime management
+should clean up web.config to remove volume of commented out config in the glimpse section
+httpexception in system.web.mvc.dll
+disabled glimpse when request init is bypassed (for #703 #614 #336)
+timeline tab scrollbar overlap
+removing commented out from request tab
+update resource result to not generate null reference exception when dealing with querystring
+test run of storing types
+getting 'specified type is not registered on the target server.system.data.entity.spatial.dbgeography' exception using glimpse.ef6 with dbgeography and webapi
+port prototype implementation for caching tab over
+glimpse and an asp.net web application not working
+nullreferenceexception thrown on application_end
+resource result should not generate null reference exception when dealing with querystring (fix #648)
+improve webforms viewstate smoke tests
+problem with multiple web projects
+glimpsedbdataadapter not profiling in sql tab
+update to vs 2013
+complex models should be processed correctly by the model binding tab (fix #655)
+addition coverate for improving webforms viewstate smoke tests
+glimpse interferes with downstream processes that read request.inputstream
+inclusion of browser info in request tab
+separate package for changes to web.config or no config package (like elmah)
+allow users to disable use of logical call context
+glimpse.axd should be csp compliant (fix #658)
+viewstate that involves boundedlists not being typed correctly
+disabling browser on request tab for now
+removed server tab
+mvc 5 with ef 6 spatial data issue (dbgeography type)
+web api routes not showing in routes panel
+removed expires, httponly and sharable from cookie
+ef6 async
+'system.stackoverflowexception' when using glimpse.webforms.tab.controltree
+tabs and inspectors from glimpse.mvc5 nuget package are incorrectly identified as coming from the glimpse.mvc4 nuget package
+glimpse.webforms changes meaning of trace element at web.config - it renders trace in pages
+timeline can't cope with long strings as the event title
+added cookie fields - expires, httponly and shareable.
+render array lists as array of objects rather than array of arrays
+response.redirecttoroute() in global.asax throwing nullreferenceexception (fixed by #704)
+sensibly interprate friendly titles out of object keys
+request tidy up no reflection
+glimpse causes mysql 502 errors for a wordpress site underneath a glimpse-enabled site
+running the mvc3 sample with the vs development server in vs2012 update 3 results in an exception
+add statuscode to ajax and history tab
+extended webforms viewstate tests & fixes
+requst tab tidy up
+stack overflow exception on specific pages
+adjust width of transaction title column in sql tab
+add async indicator to sql tab
+issue while installing glimpse nuget packages
+base webforms viewstate tests & fixes
+in-memory persistence store should be thread-safe (fix #676)
+glimpse.settings.initialize.ef(); extension method missing in glimpse.ef6
+update check to see whether proxied pageadapter should be used
+javascript critical error when using glimpse for mvc3 and vs2012
+make sure hud only displays ajax requests that have a glimpse payload
+ensure that glimpse ignores browserlinks preflight requests
+strong named assembly
+history tab blows up when invalid characters present in clientname
+exception on async actions using urlhelper after adding glimplse
+fix for #584 securing default configuration resource
+have glimpse.axd be protected by custom security policies
+the provider did not return a dbspatialservices instance (ef6).
+ensure glimpse containers are forced onto new layers
+fix hud for webforms with no viewstate
+pages without viewstate break hud (webforms)
+update solution to 2013 default
+setup mvc5 support
+create mvc5 package
+add support of allowing rendering layouts to control padding
+make array rendering more resilient
+ensure table headers have the correct default style applied
+better error management in master rendering engine
+logs written during appdomain unloading do not appear in the log
+injection of glimpse client might generate unnecessary warnings if the content is longer then 16k and might even fail if you're really unlucky
+errors in glimpse sql tab
+tab sections not showing when using jquery dialogs
+remove extra files from nuget packages
+making glimpse cls-compliant.
+fix race condition between message bus and subscribers
+changed in-code html generation to template approach for configuration resource
+iis lockup
+inconsistent from iis express virtual directory
+fix for #550.
+css class .glimpse-hud-section-input should have !important declaration for 'display: none'
+fixed prebodytagfilter partial writes handling
+glimpse is awesome, however don't see any sql from ef6 (screenshot)
+webforms support
+i got "could not load type 'system.data.entity.infrastructure.dependencyresolution.dbconfigurationloadedeventargs'"
+glimpse logging tab empty under certain conditions
+addressed a few grammar / duplication mistakes in readme
+chrome 0.0
+glimse traces not showing in mef extensions
+edit this page link broken on installation page
+quick-start instructions 404 for mvc
+sqlcommand does not get logged in sql tab
+unable to cast object of type 'system.data.sqlclient.sqldatareader' to type 'glimpse.ado.alternatetype.glimpsedbdatareader'.
+for ado.net/ef sql results, add item numbers and/or total number of commands
+glimpse.ado + telerik.reporting issues
+glimpse.mvc4 messes up the asp.net web api helppage nuget package
+tab sort order changes on switching context
+vnext
+provide support for https on glimpse.axd page
+update glimpsedbtransaction so that its not internal
+fix nullreferenceexception that could occur when access clientid
+remote server issue
+glimpse blocking browser link in visual studio 2013
+show trace in timeline + better message for ado
+incompatable with ef 6 rc1
+make glimpse faster on startup
+trailing comma issues still exists in ie quirksmode
+fix for issue #512 - clicking inspect causing error.
+glimpse interferes apiexplorer
+how to setting glimpse ajax ignore path list?
+umbraco 6.13 and mvc
+glimpse and sqlxml 3.0
+add support for xhtml5 pages
+update nuget package dependencies
+httpcontext argumentnullexception with castle idependencyresolverproxy
+switch href over from using "#" to "javascript:void(0)"
+show trace events in timeline
+show sql times in hud when using webforms
+webforms postbacks broken
+glimpse does not install properly via nuget
+glimpse panel disappears on some pages, trace panel never works? asp.net 4.0
+it can't show ie 10/11 at the glimpse top-right corner.i hope it will be fixed in the next release.
+principal not principle
+environment tab update to show version info
+writing to httpresponse blocks when bufferoutput=false and using task-based async action methods in asp.net mvc 4
+handling empty http (ajax) response
+add link in ado/ef timeline events tooltip to corresponding item in sql tab
+cast exception glimpse.ado.alternatetype.glimpsedbtransaction
+made glimpse nuget package discovery more stable, this will fix issue #477
+support for asp.net mvc 5
+changed references towards glimpse.js to make solution build again
+proposed change to fix issue 491.
+mvc4 areas & glimpse
+make glimpse easier to get working when using dynamic compression
+fixed issue #407 - prevented ef upgrading the databases
+glimpse.ado: reading glimpsedbcommand.transaction throws nullreferenceexception
+glimpse.ado: using begintransaction method causes errors in sql tab
+sql tab with async result doesn't show sql information
+async support within glimpse
+argumentnullexception from query string parameters with a null key
+overrides registered controlleractioninvoker
+</body> literal in javascript makes glimpse inject script tag in javascript and breaks it.
+add server "clock" time to hud
+preload assemblies during glimpse runtime startup
+nullreferenceexception in instantiateruntimepolicystrategy when bad request received
+various inspect links in the glimpse user interface say they have loaded, but nothing happens
+ef5 geography query error
+filenotfoundexception on glimpse.core.support.nugetpackage.getregisteredpackages()
+exception setting http response header 'glimpse-requestid' with value '0b6bf52a-b102-4d56-b37f-00dc88ce8c6c'
+log4net - allow stacktrace to be shown of messages
+dbconnecting casting exception
+bugreport: update nuget ef package to 6.0.0-beta1
+ef6 beta 1 "unable to cast glimpsedbconnection to sqlconnection"
+apologies in advance for not understanding the process...
+allow resources to access form data as a parameter
+update layout api to allow the layouts for object properties to be set
+glimpse ado fails in web site project with tableadapters - part 2
+put timeout on client message when data is missing
+tab disappears
+issue with hidden trace info in viewer
+glimpsedbdataadapter not profiling fill() correctly
+typo is upgrade readme file
+duplicate glimpse tab (?) shown when using tinymce editor
+update from 1.4.2 to 1.5 removed mvc assemblies
+[glimpse.mvc4] could not load file or assembly 'system.windows'
+refine position of data points in host popup
+typeerror: details.mvc.data is null on non-mvc pages
+add config builder to glimpse.axd
+glimpse bar change-of-colour notification to denote "history mode"
+visual annotations for transaction "warnings" in sql tab
+support for grid operations (i.e. searching, paging, sorting, filtering)
+scrollable grids with fixed headers
+remove mono styling from routes uri
+allow popup hud take up more space if needed
+make hud sections collapsible when popups opened
+tab engine can unnecessarily reset the display state in some cases
+metadata does not output unless if you only have keysheading set
+config page showing policies under the inspectors heading
+asp.net ajax requests not displayed (issue #359)
+fix for issue #395 allowing direct loading of ajax request from hud
+initial deployment of ckeditor.js
+glimpse logo does nothing on latest google canary build.
+fixing up the ux around the context switch when using ajax and history
+metro design feedback and evolution
+ie 8 compatibility - addeventlistener not working
+glimpse.aspnet 1.3.0.0 - fix glimpse.core reference to 1.4.2.0
+argumentnullexception on controllercontext
+when loading of an ajax request in the ajax tab fails due to a 404 or 500, the loading... text remains
+once the hud ajax summary view has been opened, the glimpse icon cannot open the dashboard anymore
+microsoft jscript runtime error..
+episerver 7 fails with glimpse due to proxies for contentroute
+new logo needs to be updated to nuget packages
+crash when rendering partials out of context?
+details.request.data is null when glimpse loads in ie8
+invalid column name 'contextkey' when running mvc4 music store sample
+move javascript build to t4 template
+system.invalidcastexception error occurred when controller action return partialextview
+ajax posts (after initial load, during page runtime) are invisible to glimpse (get requests are visible)
+the ajax count in the hud is 0 even when ajax calls show in the ajax tab
+javascript error on configuration tab when connectionstrings is null
+issue #400 - added null check to glimpse.hud.js > processcontenttype function
+glimpse.hud.js throwing uncaught error
+host tab not showing in the hud
+glimpse is undefined in ie9
+inspect ajax request directly from the hud
+high memory usage on request /glimpse.axd?n=glimpse_request&requestid=d8e5d404-5ee3-488a-a748-c6d2461429b1&hash=f98a77a7&callback=glimpse.data.initdata
+use default box-sizing for glimpse
+glimpse "no data has been found" when razor views are precompiled
+fix overflow of hud host details
+minor ui box-sizing issue
+javascript error on history
+update mvcdisplaymodelconverter.cs
+deleted some out-of-date stuff
+not loaded scripts
+calling glimpse.axd every second
+the iruntimepolicycontext doesn't have session state
+error calling glimpse.axd
+javascript error: item.getdata is not a function
+jquery embeded into glimpse
+add link back to site on /glimpse.axd
+glimpse 1.4.1 ajax details don't work
+glimpse 1.4.1 hud flyouts blank
+glimpse 1.4.1 not installed correctly into asp.net mvc 4 application
+hud hiding screen content
+glimpsesecuritypolicy has null session
+mvcdisplaymodelconverter.convert throws invalidoperationexception, nullable object must have a value.
+can't see heads-up display
+cast exception using last version of ef plugin
+glimpse not rendering 404 errors
+sharepoint 2010/13 support
+should have route inspector ignore non aspnet based routes (fixed in #723)
+error calling glimpsedbdatareader.close() after binding to a dropdownlist
+documentation links on website not working
+access is denied error when viewing the environment tab
+corrected incorrect instructions about how to enable logging
+glimpse prevents access to input stream
+ado not showing up on remote server
+uritemplates tries to load via require if available
+nullreferenceexception on applicationpersistencestore.getbyrequestid
+all .net 4.0+ ado and ef projects self initialize at app start.
+timeline's category area doesn't expand to fit categories
+xml documentation missing from nuget package
+glimpse client fails when rendering recursive objects
+added webactivator dependency for glimpse.ado
+'$' is undefined when installing glimpse mvc3 via nuget
+document how to add and use glimpse symbols
+fix for issue #346
+fix problem with rendering engine now showing correct row highlighting for custom layouts that span over multiple rows
+glimpse.aspnet.aspnetframeworkprovider.get_context() is throwing an argumentnullexception during async call
+add out of date version notification to glimpse.axd page
+disable cookie buttons on glimpse.axd if not needed
+bring config design inline with the site
+update glimpse.axd to current config setup
+update glimpse.axd to show state of cookie
+old - custom timeline events
+make adding additional iinspector, iresource, itab & iruntimepolicy easier
+making itab more simple
+small refactorings
+error on glimpse.axd afterinstalling
+csharptypeconverter fails on nested generic clases
+support for system.web.optimization
+expected identifier, string or number in glimpse.util.js on ie in quirks mode
+glimpse.mvc4 does not work with mvc4.net40 projects
+could not parse requestid ' as guid.'
+routes tab exception
+support rendering of arrays of objects with metadata like we do array of arrays
+glimpse configuration tab is not masking the connection string password
+provide infrastructure hook for initializing components at app start
+ci push to nuget
+convert system.web.astractions branch to master
+pulling client into its own submodule
+integrate ef support into glimpse
+make glimpse work with microsoft.aspnet.webapi.helppage
+nullreferenceexception in listofroutemodelconverter.getroutedata()
+create gethttpcontext extension for iruntimepolicycontext
+nullreferenceexception in listofviewsmodelconverter.getdetails()
+advice : what would be a good way of disabling glimpse if ie8 is being used.
+support rendering of arrays of objects like we do array of arrays
+ado and ef projects updated to latest extensibility api
+support navigating around rendered output
+nullreferenceexception when modelbinderprovider returns null
+documentation url's are invalid
+wip: instance based frameworkprovider
+itablayout disrepects markdown syntax
+routes tab shows "missing" for non-string defaults
+row headers of nested tables don't have a depth tracked
+trace listener throws exception on non asp.net thread
+weird &_ in client generated uri's
+history tab repeats clients
+glimpse empty output with cassette html rewrite enabled
+glimpse routing causes argumentexception
+configuration tab shows error in mvc 4 app
+do not serialize session data
+default configuration after installing 1.0.0-rc1 from nuget package
+mvc4 areas support?
+create alternate ilmerge-free build
+glimpse adds <trace> tag when it's already present
+ensure ajax tab has correct cache busting in place
+make history tab remember selected session between page refreshes
+history tab not remembering which record was selected
+refactor tracetab.setup
+execution tab ui
+create glimpse.webforms nupkg
+end user documentation
+core api documentation
+simplify message hierarchy
+cleanup timeline categories
+performance/memory management campaign
+clean up alternatetype<routebase>
+allow user to specify log file location
+history stops working in rc1 with ie 9
+fix reflectiondiscoverablecollection locking files
+could not load module error
+glimpse rc1 interferes with signalr
+introduce httpapplicationbase abstraction
+put message in statuscoderesourceresult constructor
+glimpse client to show "loading" message
+http module init threading issue
+glimpse failing to load when opening connection to access database
+integration testing harness
+entity framework connection strings
+fix broken symbols packages
+can i use tracesource instead of trace to make items appear in the trace tab ?
+version 1 doesn't work with subdomains
+get 403 error on glimpse.axd when deployed to remote server
+authorize/ authenticate with global action filter
+glimpse icon does not render
+self referencing loop detected for type 'creaom.common.gui.orderentry.dspricelist+pricelistrow'.
+.writememberinfoproperty(newtonsoft.json.jsonwriter writer
+added vs test runner output path to .gitgnore file
+an unhandled exception of type 'system.stackoverflowexception' occurred in glimpse.core.dll
+duplicated <trace> in the web.config after installation
+tab layout improvements
+refresh problem for glimpse panel when vertical scrollbar is activated
+feature - plugin assist helpers
+glimpse execution tab disabled when running with windsor castle
+routes tab for v1
+i get a "unable to determine the provider name for connection of type 'system.data.sqlclient.sqlconnection'."
+added client side timing plugin for timeline
+internalized json.net conflicting with external version
+.net 4.5 support with glimpse for mvc4 beta?
+toolbar is empty
+ajax launch link remains hidden
+jsonserializationexception / argumentexception
+assembly leak with glimpse turned on
+indexeddb viewer
+issue with telerik control: radasyncupload
+multiple controls with the same id 'ctl00' were found
+fix for issue #179 (slow csharpsanitizer)
+background colors
+protocol documentation
+csharpsanitizer is very slow on large input
+glimpse breaks ef code first data seed initialization
+getting started points to wrong configuration url
+support for plugin directories hosted outside of ~/bin
+nullreferenceexception on pipelinemodulestepcontainer after deploying
+could not load file or assembly microsoft.web.infrastructure
+glimpse icon does not appear when running under vs2010
+older/viewfolder)| 2012-04-02 14:35:06.9428|error|glimpse.core.module|exception during endrequest|system.argumentexception--an item with the same key has already been added.-- at system.throwhelper.throwargumentexception(exceptionresource resource) at system.collections.generic.dictionary`2.insert(tkey key
+asp.net mvc4 support?
+stack overflow exception in glimpse.core crashing webdev.webserver40.exe
+nuget 'operation failed'
+ajax not working in asp.net mvc 4
+project url is incorrect
+conflict with autofac for mvc3
+issue #164 round robin load balancing breaks glimpse
+glimpse.sample.mvc3 does not have referenced .sdf data files
+ajax display is empty
+problem in clientside display
+glimpse & castle.dynamicproxy incompatible
+nullreferenceexception in nopcommerce 2.4
+glimpse.mvc3 trace output brings system to a crawl
+glimpse for nhibernate - wrapping up
+failed while exec raw sql with ef profile
+outputcache substitution does not work with a response filter
+ipaddressvalidator .getuseripaddress crashes with ipforwardingenabled=true
+file uploads never return response when glimpse installed
+mvc3 nuget breaks some web pages - they won't load
+fix for issue #146 per my discussion with avanderhoorn
+glimpse fails if plugins are duplicated and re-loaded
+asp.net using mysql database
+getting "sequence contains more than one element" error
+script tags not rendering
+glimpse doesn't update validateintegratedmodeconfiguration in web.config correctly
+glimpse upgrade breaks web.config
+glimpse crashes my app looking for nunit
+add nhibernate profile
+fix for issue #130
+pedantry - missing apostrophe
+ilmerged json.net conflict
+mvc binders cause problems when used without a controller
+glimpse re-rendering output within a single page
+adding log4net plugin
+implement stream.flush method and forward it through to outputstream
+use idictionary.contains instead of exceptions to get glimpse request id
+could not load type 'glimpse.core.module'
+glimpse icon not rendered for any path except "/"
+duplicating html when using web forms
+fix elmah reference
+string length in remote tab causes launch links to get hidden behind client panel
+dynamic proxy memory leak
+nuget fails installing glimpse on asp.net forms 3.5 project
+the "execution" tab is disabled in glimpse v0.85
+add elmah plugin to glimpse
+fixed issue #108 - mime type "application/xhtml+xml" not supported
+can't see trace from mvc 3 actionfilterattribute
+trace in ajax post
+added test plugin for the pager
+plugin names with parenthesis "()" cause plugins not be displayed
+outputcache duration
+system.accessviolationexception was unhandled
+glimpse causes blank html with area
+icon disappears after login page
+ado support - fix - glimpseprofiledbconnectionfactory compilation.
+glimpse blocks jquery mobile ajax page requests
+iprange
+hashtable type in session not outputting key/values
+glimpse enabled causes blank html
+views tab shows: current error context error is different to requested error.
+glimpse breaks spark's javascriptviewresults
+a cache plugin would be a useful default to include in glimpse
+null check in views plugin
+allow glimpse.axd path to be moved in web.config for httphandler
+display object size in bytes on the session tab, along with total
+putting in handler and module for webforms sample so it runs out of the box.
+glimpse block callback function of jquery ajax call
+implement paging support
+added documentation for urlblacklist and new config root attributes
+nullreferenceexception in httphandler.processrequest
+glimpse and dojo
+glimpse icon not rendering in mvc3 app
+glipse eye icon does not show in chrome 12
+views tab: object reference not set to an instance of an object.
+minor change to steps in nuspec readme.
+when validating by ip, check the http_x_forwarded_for
+object reference not set to an instance of an object on session tab
+glimpse should publish source/symbols on something like symbolsource.org
+passing an iqueryable<t> to an mvc view causes issue with glimpse
+embedded script tags in the glimpse data aren't encoded properly
+codeplex download
+glimpseview is marked internal, cannot cast viewcontext.view to glimpseview
+z-index of the eye icon
+$glimpse is not defined js exception
+input string was not in a correct format. (at initial request)
+updated documentation for vs. 0.83
+migration from word document
+blacklisting all plugins results in a compositionexception error
+loooong page requests in chrome
+glimpse eye does not appear when app ip specifies a port number
+elmah for glimpse plugin does not seem to work after upgrading to 0.82
+unable to perform mvc router debugging
+can't run glimpse after installing
+strikethrough entries on the ajax tab
+syntax error - unexpected token }
+the operation could not be completed
+glimpseclient.js 404 mvc3 fresh project
+glimpsetracelistener.get_messages() on a separate thread throws an error because httpcontext.current is null
+mvc3 validation broken
+popup window is blank
+glimpse js error when visiting elmah.axd
+exception while de-serializing session breaks json
+invalidoperationexception: sequence contains more than one element when visiting /glimpse/config
+glimpse url not resolved on remote servers
+error in glimpseclient.js, line 1 : if (!json || !jquery) {
+glimpse warning not so clear
+glimpseclient.js 404 in webforms applications
+better reporting when jquery is missing
+implementing ip range support
+glimpse only works locally
+external configuration
+fix for regex in sanitizer
+sanitizer not working correctly
+javascript error when click on glimpse icon
+usage problems
+can't get to work and can't get clues what is going on
+'jquery' is undefined when using an async script loader
+incorrect glimpse url in readme?
+issues with glimpse and automapper?
+httprequestvalidationexception being thrown when posting html
+property injection does not work when glimpse is installed
+glimpse does not invoke actions correctly when in an asynccontroller
+nhibernate lazy load exception
+synchronous jquery ajax fails
+empty pop-up windows appears on start of application
+0 bytes returned when controller content type is text/css and gzipped
+a generic error occurred in gdi+.
+glimpse traversing model properties
+feature request
+infinite redirect when glimpse is on
+glimpse js request returns 404
+jquery.noconflict prevents ui from loading
+fix for multiple-initialization bug.
+plugins initialized twice
+returning json
+some "tabs" are missing (routes, remote, server, xhr,...)
+'josn' is undefined error
+incompatibility with spark view engine?
+binder plugin overwrites my binder with glimpsedefaultmodelbinder using ninject
+is trace information get truncated?
+fixes empty application data json
+add tracing for mvc dependency resolvers.
+cannot use in ie 9 or chrome - no "eye" icon
+the view 'index' or its master was not found.. v0.77 on orchard mvc
+not working with virtual directories in iis due to fixed path
+typos
+yellow screen of death
+i've got it installed but am getting js error
+error during serialization or deserialization using the json javascriptserializer. the length of the string exceeds the value set on the maxjsonlength property.
+work around: circular reference whilst serializing json object
+unable to load one or more of the requested types.
+a circular reference was detected while serializing an object
+glimpse client window hidden by silverlight control
+issues are not assigned even though someone is working on them
+public access to innerdataadapter on glimpsedbdataadapter
+javascript error - line: 46 error: unable to get property 'indexof' of undefined or null reference
+glimpse v2 - replace scripttagsinjectionstream by a more robust solution
+glimpse v2 - owin/vnext samples
+mvc upgraded from 4 to 5. access denied javascript error
+ie 11 glimpse panel scroll bar under page scroll bar, can't scroll glimpse panel
+glimpse panels do not display any information
+added test for prebodytagfilter, when content is compressed
+pre-compressed static content is corrupted by prebodytagfilter
+add ability to save the requests to logging so you can see & analyze them later on
+add ability to filter requests over certain tresholds
+add ability to sort requests by duration time
+nullreferences in ado\ef during asp.net background processing
+child application throws because of config in root application (<ignoredtypes>)
+glimpse.ef6 + async fluentvalidation = total freeze.
+http error 500.19 - internal server error
+glimpse repeating routes
+exception setting http response header 'glimpse-requestid' with value '082ca74a-4267-44fe-882f-7d530dccbee7'.
+glimpse not recording calls from other browsers, etc
+updated projectk to new middleware signature.
+cache tab sliding expiration side effects
+glimpsedbcommand nulling dbconnection during dispose #818
+glimpse.ado occasionally throws a sqlexception
+glimpse/mvc5/sitecore running slowly
+ef5, mvc4, net4.5, oracle db - unable to determine the provider name for connection of type 'oracle.dataaccess.client.oracleconnection'
+glimpse v2 - metadata discovery
+glimpse v2 - request metadata tags
+itab.isactive property to let the tab writer decide when should a tab appear
+requests are stuck when using an async webapi controller that serves images
+mvc4+ef6+mysql: "no entity framework provider found for the ado.net provider with invariant name 'system.data.odbc'."
+glimpse v2 - improved persistent store interface - wip
+fix for broken dbdataadapter:update(datarow[]) call. (#785)
+locks up browser when clicking on request tab
+unable to view sql on sql tab when using transactions
+running glimpse in a folder other than '/' prevents web app from starting.
+invalid cast exception when using context.database.connection.createcommand
+casting problems between castle.proxies and devexpress model binder
+support for system.runtime.caching classes
+allow tab names to be shown on multiple line when they don't fit in the available width
+glimpse v2 - bundle registered client scripts - wip
+web api - wip for #715
+enabling glimpse breaks claimsprincipal.current
+owin/katana support up and running
+glimpse v2 - instance based framework provide, code configuration, owin and more
+console warning in chrome for deprecated method
+javascript critial error
+glimpse.windowsazure - what's next?
+glimpse panel is hidden in mvc3 jquerymobile website
+improve viewstate processing for parameter collections
+spike of stacktraces for all ado.net queries - wip
+get web api support up and running
+fail using glipse ef6.1 alpha 1 and mysql ef6
+blurry text in ie
+add the possibility to see which route kicked in, in "routes" tab, when requesting a page that does not exist
+feature / improvement: temporarily disable polling
+automate version updates to assemblyinfo and nuspec files
