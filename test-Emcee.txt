@@ -1,0 +1,50 @@
+summary::summary
+entry testimonials rst::entry testimonial rst
+mahdiparsa::mahdiparsa
+kernels suitable image::kernal image
+dnest::dnest
+ensemble sampler gibbs step::ensemble sampler
+triangle py::triangle
+removed trivial line::remove line
+shape chain lnprob attributes sampler subclasses::shape chain attribute sampler
+fix blobs::fix blob
+add memory run::add memory run
+minor nit handling ctrl::minor handling
+added sample ellipsoid function::add sample function
+package::package
+rewrite mpipool class fix cpickle unpicklingerror bug::class fix bug mpi
+add hashbang line setup py::add line setup
+interruptible pool class multithreaded runs ed::pool class
+ptsampler temp ladder merged::ptsampler ladder
+add bcast collective operation mpipool class::add mpipool class
+add publication testimonials rst::add publication testimonial rst
+ability update lnprob args kwargs::ability update
+added keller al 2014 testimonials::add testimonials
+fix docstrings sampler run mcmc::fix sampler
+added marco tazzari author::add author
+keyword arguments lnpostfn lnprobfn logp logl::keyword arguments
+mpi crashes ubuntu 04::mpi crash ubuntu
+fix omissions mistakes api docs::fix mistake api
+function wrapper sampler class::function sampler class
+make work yeilded values ensemblesampler sample::make ensemblesampler sample
+yeilded values ensemblesampler sample::ensemblesampler sample
+parallelization strange behaviour multiprocessing::parallelization multiprocessing
+update ensemble py check initial state issue::ensemble issue
+avoid runtimewarning subtracting infs::avoid subtract runtimewarning
+ptsampler object random state reproducibility::object state
+update acor helper correct sample loop::update sample loop
+mpi memory issues openmpi v1::mpi memory issue openmpi
+parameters saved::save parameter
+run lnprobfn entire sampler::run sampler
+add documentation restart end previous run::run add documentation restart
+added progessbar run mcmc::add progessbar run
+add pickle method ensemblesampler::add pickle ensemblesampler
+make sampler work blobs::make sampler blob
+documentation lnprob prob density containers ensemble sample::documentation density container ensemble sample
+write documentation check convergence::documentation convergence
+option vectorized versions density callables::vectorized versions
+periodic model parameters::model parameter
+explain usage sample method::sample method
+add fitting line::add line
+fail::fail
+variable likelihood speed::variable speed
