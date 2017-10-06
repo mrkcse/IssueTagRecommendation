@@ -1,0 +1,171 @@
+typo url::url typo
+enable owin sample people cookie turned::sample people cookie
+castle core::castle core
+ef6 work npgsql entityframework::npgsql entityframework
+error loading app sprite png::error app sprite
+fix typo readme md::fix typo readme
+content decoding issue file 2696 characters::decode issue file
+icon showing::show icon
+remove net35::remove net
+missing xsd definition web config section::xsd definition web config
+make long pooling web sockets pinging single::pooling web sockets
+fix 737 loosen getdbprovidermanifesttoken behavior::fix loosen getdbprovidermanifesttoken
+work requests perform server transfer::perform server transfer
+loading issue session tab::load issue session
+select sql command text::sql command text select
+mvc tab views true search location::mvc tab view true search
+support aspnetsynchronizationcontext::support aspnetsynchronizationcontext
+implement build mode detection assemblies environment tab:: mode detection assemblies
+json serialization exception episerver webforms::json serialization exception
+glimpsedbcommand nulling dbconnection dispose::glimpsedbcommand null dbconnect dispos
+exception executing tab type metadata::exception tab type metadata
+showing::show
+embedded jquery spews syntax errors visual studio 2013 output window debugging:: jquery syntax errors visual studio
+add button makes easy launch service sites:: easy launch service sites
+disabled case runtime didn initialize request processed fixed 704::fix disabled case runtime initialize
+update request tab serialization handle validation failures 700::tab serialization validation failures
+added update iunvalidated ienumerable valueproviders 696::iunvalidated ienumerable valueproviders
+request tab serialization handle validation failures fixed 702::tab serialization validation failures
+client update modify local ajax requests::client modify ajax requests
+support iunvalidated ienumerable valueproviders fixed 701:: iunvalidated ienumerable valueproviders
+friendly message current async implementation supported::async implementation
+missing style forces tables width::missing style
+wip adding custom configuration options feature::wip custom configuration
+pubsub events hud init process::pubsub events hud
+fix database disposal problems mvc music store::fix database disposal problems
+encoding urls ajax hud ticker::ajax hud url
+cross site origin requests fail header modification ajax tab::cross site origin requests fail
+update hud wraps fix incorrectly small screens::hud wraps fix incorrectly
+memory persistence store thread safe::memory persistence thread safe
+update cache tab ready release::cache tab ready release
+server tab shows common variables fixed 712::server tab common variables
+sql logging enterprise library dac::sql log enterprise library
+cleanup cache tab ready release::cleanup cache tab ready release
+improved handling connection strings configuration tab::handling configuration tab
+user define keys inside connectionstring obfuscated::user defined key
+fix connection strings properly parsed::fix connection parsed
+castle ioc interfering::castle interfering
+mvc cookie path working::mvc cookie path
+intermittent null reference exceptions asp net mvc4 app::null reference exceptions asp net
+update titles objects metadata::titles objects metadata
+update structured layouts titles casing logic applied::structured layouts titles casing
+net remoting exception web httpcontextwrapper marked serializable::net remoting exception httpcontextwrapper
+wip logged errors thrown testing::wip logged errors
+update axd csp compliant::axd csp compliant updat
+fix null reference exception http custom 400::null reference exception
+updated complex models processing work correctly model binding tab::complex models processing work correctly
+entityframework beta1 throws nullreferenceexception::entityframework throws nullreferenceexception
+hud wraps incorrectly small screens fix 653::hud wraps incorrectly
+cache bug::cache
+support entity framework v1::support entity framework
+ysod combining microsoft aspnet friendlyurls::microsoft aspnet friendlyurls
+switching history ajax tabs consumes cpu browser freezes::switching history ajax tabs
+removed unused aspnet net35 net35backport::aspnet net35 net35backport
+prebodytagfilter robust fixes issues 341 partially 442 completely::prebodytagfilter robust fixes
+hud hides ability open::hud hides
+updated wiki page::wiki page
+environment server errors::environment server errors
+install loading information page key present dictionary::page key present dictionary
+reference loop json net::reference loop json net
+mvc4 installing core::instal mvc core
+optimal loading tabs large amounts data::large amounts data
+throw notimplementedexception implement ip logic::throw notimplementedexception ip logic
+admin mvc3 musicstore results sqlexception dependency sql express::mvc3 musicstore results sqlexception
+enable exceptions thrown::enable exceptions thrown
+error installing nuget package asp net unable cast object type castle proxies routebaseproxy::error installing nuget package cast object routebaseproxy
+issue httpcontext current session implementing imetadataaware localizeddisplayformatattribute inherits attribute::httpcontext current session imetadataaware localizeddisplayformatattribute
+error configsource web config::config web error
+ninject extensions conventions breaks::ninject conventions breaks
+documentation compression issues::documentation compression issues
+breaks classic asp::asp break
+datastoreextensions throw nullreferenceexception overriting dependencyresolver fixed 704::datastoreextensions nullreferenceexception dependencyresolver
+quirks mode length null object pubsub js::quirks mode null object pubsub js
+add defaults metadata avoid javascript errors::metadata avoid javascript errors
+fix reference screenshot readme::fix reference screenshot readme
+added support objects override tostring method sessionmodelconverter::objects override method sessionmodelconverter
+popup window resizing viewable area timeline::popup window viewable area
+core reporting date::report date core
+assemblies strong named::assemblies strong named
+flag double sql calls query::sql calls query
+custom model binder class picked binding tab::custom model binder
+cast exception ef5 autofac mvc::cast except mvc ef autofac
+fix 319 fileresource core::fix core
+fileresource extensions::fileresource extensions
+add support dependent packages dynamic readme::support dependent packages dynamic
+notify users axd duplicated resources registered::notify axd duplicated resources
+add detection::add detection
+column titles assigned metadata::column titles metadata
+mvc4 icon::mvc icon
+add documentation sql tab::documentation sql tab
+install::instal
+cleanup ado project::ado project cleanup
+ado working oracle::ado working oracle
+warning missing::warning missing
+update view tab support mvc displaymode::view tab support mvc displaymode
+rework asynccontrolleractioninvoker support mvc task::mvc task support asynccontrolleractioninvoker
+update solution structure order support net mvc::solution order support net mvc
+logo tab::logo tab
+traceeventtype verbose missing translation internally tracelistener::traceeventtype missing translation tracelistener
+write tracing global asax glimpsetracelistener disables::global asax trace glimpsetracelisten
+asynchronous action method returns task executed synchronously::asynchronous action method task
+glimpseconfiguration::glimpseconfiguration
+invalidcastexception asynccontroller::invalidcastexception asynccontroller
+js starts showing text turned::js showing text turned
+latest version nuget rc2 working box::nuget rc2 working box
+popup rendering script tags::popup rendering script tags
+model binding tab showing incorrect results::model binding tab incorrect
+incorrect type method execution tab::incorrect type method
+weird version check request::request version check
+set session wrong cookie::session cookie wrong
+unable route::route unable
+rename ipipelineinspector iinspector::ipipelineinspector iinspector
+glimpse.aspnet.1.7.0 nuget package contains glimpse.aspnet.1.6.0 for .net 3.5/4::aspnet nuget package
+any plans to support angularjs?::angularjs
+write an azure site extension for glimpse::azure site
+first attempt at load tests::load test
+create load test::load test
+memory increase using asp.net webforms::memory aspnet webform
+ajax tab does not show requests. whereas history tab shows the same requests::ajax history tab request
+improve client script registration::client registration
+keyboard shortcuts::keyborad shortcut
+symbole source package broken::symbol package
+modelbinding tab causes glimpse to show no data - mvc5 vs2013::tab modelbinding
+control.validaterequestmode = validaterequestmode.disabled ignored by glimpse::control disable
+adding prg and webmethods support for webforms::add support webmethod webform
+glimpse.axd indicates newer version available even when latest version is installed, but only as long as the glimpse client hasn't run after the upgrade::version client
+ajax requests to asp.net webforms webmethods are not captured::ajax request aspnet webform webmethod
+system.notsupportedexception: underlying glimpsedbcommand is not cloneable::clone
+audit logging messages/levels::audit log
+added fullly qualified controller name to iactionmessage.::add contoller
+glimpse not working with custom mvc template::mvc template
+i'd love to see support for 304 status (not modified) for the ajax tab::support ajax tab
+this pr will structurally solve issue #341 even though the symptoms were already solved by pr456::issue
+deadlock/race condition in production caused by glimpse::deadloc race
+make request with duplicate sql queries more outstanding::request duplicate sql query
+glimpse + netegrity siteminder blows up ajax/javascript::ajax javascript
+treeview expand/collapse button(s) and default display settings::treeview button display
+glimpse does not install correctly via nuget - case 2::install nuget
+improve xhtml5 compatibility::xhtml5 compatibility
+provide support for entity framework v1::support entity framework
+glimpse does not install properly via nuget::install nuget
+glimpse.ef5 + nuodb::ef5 nuodb
+mixed platforms mvc and webforms::platform mvc webform
+url rewrite module interference::url module interference
+provide ability to create custom hud panels.::provide create hud panel
+glimpse.ef.alternatetype.glimpsedbproviderservices' not found::ef
+show stacktrace for all ado.net queries::show staktrace ado ado.net
+glimpse seems to interfere with asynchronous post back to default document::interfare asynchronous post document
+[wip] improved serialization process::wip serialization
+glimpse access potentially disposed model objects during endrequest::model object endrequest request
+improve documentation for glimpse::documentation
+bring the rest of glimpse inline with the drill ux that hud and its popup has started::drill hud popup
+add more context information when subscribing/publishing with the pubsub client component::add context subscribe publish client
+providing support for legacy browser (ie7-8) in client::support browser
+glimpse not detecting ajax request done in $(document).ready()::ajax document
+document how to build glimpse::document
+list out top packages for first run in glimpse.axd::list package
+glimpse v2 - suppport chained service calls::support chained service
+tracking of similar sql queries (#323)::track sql query
+customer actioninvoker being overridden::customer override
+provide support for nhibernate::support nhibernate
+improvement ideas::improve idea
